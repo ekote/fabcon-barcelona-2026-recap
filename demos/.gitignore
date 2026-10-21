@@ -1,0 +1,3 @@
+config.env
+_tmp/
+__pycache__/

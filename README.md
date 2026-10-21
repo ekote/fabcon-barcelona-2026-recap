@@ -7,6 +7,7 @@
 <a href="#status-of-every-announcement"><img src="https://img.shields.io/badge/statuses%20checked-2026--10--21-4FA3E3?style=flat-square" alt="Statuses checked 2026-10-21" height="20"></a>
 <a href="#slides-pdf-and-recordings"><img src="https://img.shields.io/badge/slides-EN%20%7C%20PL%20%7C%20DE-07101E?style=flat-square" alt="Slides in English, Polish, and German" height="20"></a>
 <a href="#demo-recordings"><img src="https://img.shields.io/badge/recordings-20%20per%20language-1F7A4D?style=flat-square" alt="20 recordings per language" height="20"></a>
+<a href="demos/"><img src="https://img.shields.io/badge/demos-run%20them%20yourself-5C2D91?style=flat-square" alt="Run the demos in your own tenant" height="20"></a>
 <a href="https://ekote.github.io/fabcon-barcelona-2026-recap/"><img src="https://img.shields.io/github/deployments/ekote/fabcon-barcelona-2026-recap/github-pages?label=site&style=flat-square" alt="Website status" height="20"></a>
 <a href="#about-the-author"><img src="https://img.shields.io/badge/Microsoft-MVP-0078D4?style=flat-square" alt="Microsoft MVP" height="20"></a>
 <a href="#license"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-EF9421?style=flat-square" alt="License: CC BY 4.0" height="20"></a>
@@ -24,7 +25,7 @@
 
 # FabCon Europe 2026 Barcelona recap: what shipped in Microsoft Fabric, GA vs preview
 
-FabCon and SQLCon Europe 2026 ran from September 28 to October 1, 2026, in Barcelona. The keynote on September 29 turned Microsoft Fabric into a platform for agents: Microsoft 365 Copilot Chat, MCP clients, Copilot Studio, and apps can now pull answers from Fabric data. This recap labels every announcement GA, PREVIEW, ROADMAP, or TBC, checked against Microsoft Learn on October 21, 2026. It comes with slides in English, Polish, and German, PDFs, and 20 recordings from a demo tenant with synthetic data.
+FabCon and SQLCon Europe 2026 ran from September 28 to October 1, 2026, in Barcelona. The keynote on September 29 turned Microsoft Fabric into a platform for agents: Microsoft 365 Copilot Chat, MCP clients, Copilot Studio, and apps can now pull answers from Fabric data. This recap labels every announcement GA, PREVIEW, ROADMAP, or TBC, checked against Microsoft Learn on October 21, 2026. It comes with slides in English, Polish, and German, PDFs, 20 recordings from a demo tenant with synthetic data, and a script that rebuilds the demos in your own tenant.
 
 **Read it as a web page:** [ekote.github.io/fabcon-barcelona-2026-recap/](https://ekote.github.io/fabcon-barcelona-2026-recap/)
 
@@ -163,34 +164,55 @@ Project Osmos is the data engineering agent in Microsoft Fabric, in preview. It 
 
 </details>
 
+<details>
+<summary><strong>Can I run these demos in my own Fabric tenant?</strong></summary>
+
+Yes. The demos folder has a Python script that creates an F8 capacity, a workspace, synthetic data, a semantic model, an eventhouse, notebooks, and a data agent, plus one runbook per recorded demo with the exact prompts and expected results. F8 costs about 1.41 EUR per hour in France Central at the Azure retail price, and the capacity can be paused when you are done.
+
+</details>
+
 ## Demo recordings
 
 18 product demos from a demo tenant with synthetic data, the keynote showreel, and interviews with seven people at Microsoft. Every clip exists in English, Polish, and German takes.
 
-| Slide | Recording | Length | Play |
-|---|---|---|---|
-| 2 | FabCon Europe 2026 keynote showreel | 26 s | [EN](en/media/fabcon-showreel.mp4) · [PL](pl/media/fabcon-showreel.mp4) · [DE](de/media/fabcon-showreel.mp4) |
-| 3 | One question for seven people at Microsoft | 103 s | [EN](en/media/fabcon-interviews.mp4) · [PL](pl/media/fabcon-interviews.mp4) · [DE](de/media/fabcon-interviews.mp4) |
-| 8 | The "Fabric data in Microsoft Copilot" setting | 12 s | [EN](en/media/S05-A23-copilot-admin-setting.mp4) · [PL](pl/media/S05-A23-copilot-admin-setting.mp4) · [DE](de/media/S05-A23-copilot-admin-setting.mp4) |
-| 8 | The AI setting on a semantic model | 11 s | [EN](en/media/S05-A12-semantic-model-ai-setting.mp4) · [PL](pl/media/S05-A12-semantic-model-ai-setting.mp4) · [DE](de/media/S05-A12-semantic-model-ai-setting.mp4) |
-| 11 | Fabric IQ MCP server | 23 s | [EN](en/media/S08-A2-fabric-iq-mcp.mp4) · [PL](pl/media/S08-A2-fabric-iq-mcp.mp4) · [DE](de/media/S08-A2-fabric-iq-mcp.mp4) |
-| 11 | Fabric Core MCP server tools | 17 s | [EN](en/media/S08-A11-core-mcp-audit.mp4) · [PL](pl/media/S08-A11-core-mcp-audit.mp4) · [DE](de/media/S08-A11-core-mcp-audit.mp4) |
-| 12 | OneLake Table Read API | 14 s | [EN](en/media/S09-A17-table-read-api.mp4) · [PL](pl/media/S09-A17-table-read-api.mp4) · [DE](de/media/S09-A17-table-read-api.mp4) |
-| 13 | Project Osmos task in Fabric | 49 s | [EN](en/media/S10-A5-osmos.mp4) · [PL](pl/media/S10-A5-osmos.mp4) · [DE](de/media/S10-A5-osmos.mp4) |
-| 14 | Operations agent investigates a failed pipeline | 47 s | [EN](en/media/S11-A6-operations-agent.mp4) · [PL](pl/media/S11-A6-operations-agent.mp4) · [DE](de/media/S11-A6-operations-agent.mp4) |
-| 15 | Ontology agent in Fabric IQ | 47 s | [EN](en/media/S12-A8-ontology.mp4) · [PL](pl/media/S12-A8-ontology.mp4) · [DE](de/media/S12-A8-ontology.mp4) |
-| 16 | Copilot generates a Real-Time Dashboard | 55 s | [EN](en/media/S13-RTI-copilot-dashboard.mp4) · [PL](pl/media/S13-RTI-copilot-dashboard.mp4) · [DE](de/media/S13-RTI-copilot-dashboard.mp4) |
-| 17 | OneLake security roles | 14 s | [EN](en/media/S14-A16-onelake-security.mp4) · [PL](pl/media/S14-A16-onelake-security.mp4) · [DE](de/media/S14-A16-onelake-security.mp4) |
-| 17 | Outbound access protection | 18 s | [EN](en/media/S14-A18-outbound-protection.mp4) · [PL](pl/media/S14-A18-outbound-protection.mp4) · [DE](de/media/S14-A18-outbound-protection.mp4) |
-| 18 | Policies in Fabric | 16 s | [EN](en/media/S15-A13-policies.mp4) · [PL](pl/media/S15-A13-policies.mp4) · [DE](de/media/S15-A13-policies.mp4) |
-| 18 | OneLake catalog Govern | 20 s | [EN](en/media/S15-A19-catalog-govern.mp4) · [PL](pl/media/S15-A19-catalog-govern.mp4) · [DE](de/media/S15-A19-catalog-govern.mp4) |
-| 26 | OneLake catalog search API | 30 s | [EN](en/media/S16-A20-catalog-search.mp4) · [PL](pl/media/S16-A20-catalog-search.mp4) · [DE](de/media/S16-A20-catalog-search.mp4) |
-| 27 | AI functions in a PySpark notebook | 29 s | [EN](en/media/S16-ai-functions.mp4) · [PL](pl/media/S16-ai-functions.mp4) · [DE](de/media/S16-ai-functions.mp4) |
-| 28 | Materialized lake views with data quality rules | 84 s | [EN](en/media/S16-mlv-medallion.mp4) · [PL](pl/media/S16-mlv-medallion.mp4) · [DE](de/media/S16-mlv-medallion.mp4) |
-| 29 | Fabric data agent answers from a lakehouse | 45 s | [EN](en/media/S16-data-agent.mp4) · [PL](pl/media/S16-data-agent.mp4) · [DE](de/media/S16-data-agent.mp4) |
-| 30 | OneLake table APIs: Unity Catalog and Iceberg REST | 25 s | [EN](en/media/S16-onelake-open-catalogs.mp4) · [PL](pl/media/S16-onelake-open-catalogs.mp4) · [DE](de/media/S16-onelake-open-catalogs.mp4) |
+| Slide | Recording | Length | Play | Runbook |
+|---|---|---|---|---|
+| 2 | FabCon Europe 2026 keynote showreel | 26 s | [EN](en/media/fabcon-showreel.mp4) · [PL](pl/media/fabcon-showreel.mp4) · [DE](de/media/fabcon-showreel.mp4) |  |
+| 3 | One question for seven people at Microsoft | 103 s | [EN](en/media/fabcon-interviews.mp4) · [PL](pl/media/fabcon-interviews.mp4) · [DE](de/media/fabcon-interviews.mp4) |  |
+| 8 | The "Fabric data in Microsoft Copilot" setting | 12 s | [EN](en/media/S05-A23-copilot-admin-setting.mp4) · [PL](pl/media/S05-A23-copilot-admin-setting.mp4) · [DE](de/media/S05-A23-copilot-admin-setting.mp4) | [D01](demos/runbooks/D01.md) |
+| 8 | The AI setting on a semantic model | 11 s | [EN](en/media/S05-A12-semantic-model-ai-setting.mp4) · [PL](pl/media/S05-A12-semantic-model-ai-setting.mp4) · [DE](de/media/S05-A12-semantic-model-ai-setting.mp4) | [D02](demos/runbooks/D02.md) |
+| 11 | Fabric IQ MCP server | 23 s | [EN](en/media/S08-A2-fabric-iq-mcp.mp4) · [PL](pl/media/S08-A2-fabric-iq-mcp.mp4) · [DE](de/media/S08-A2-fabric-iq-mcp.mp4) | [D03](demos/runbooks/D03.md) |
+| 11 | Fabric Core MCP server tools | 17 s | [EN](en/media/S08-A11-core-mcp-audit.mp4) · [PL](pl/media/S08-A11-core-mcp-audit.mp4) · [DE](de/media/S08-A11-core-mcp-audit.mp4) | [D04](demos/runbooks/D04.md) |
+| 12 | OneLake Table Read API | 14 s | [EN](en/media/S09-A17-table-read-api.mp4) · [PL](pl/media/S09-A17-table-read-api.mp4) · [DE](de/media/S09-A17-table-read-api.mp4) | [D05](demos/runbooks/D05.md) |
+| 13 | Project Osmos task in Fabric | 49 s | [EN](en/media/S10-A5-osmos.mp4) · [PL](pl/media/S10-A5-osmos.mp4) · [DE](de/media/S10-A5-osmos.mp4) | [D06](demos/runbooks/D06.md) |
+| 14 | Operations agent investigates a failed pipeline | 47 s | [EN](en/media/S11-A6-operations-agent.mp4) · [PL](pl/media/S11-A6-operations-agent.mp4) · [DE](de/media/S11-A6-operations-agent.mp4) | [D07](demos/runbooks/D07.md) |
+| 15 | Ontology agent in Fabric IQ | 47 s | [EN](en/media/S12-A8-ontology.mp4) · [PL](pl/media/S12-A8-ontology.mp4) · [DE](de/media/S12-A8-ontology.mp4) | [D08](demos/runbooks/D08.md) |
+| 16 | Copilot generates a Real-Time Dashboard | 55 s | [EN](en/media/S13-RTI-copilot-dashboard.mp4) · [PL](pl/media/S13-RTI-copilot-dashboard.mp4) · [DE](de/media/S13-RTI-copilot-dashboard.mp4) | [D09](demos/runbooks/D09.md) |
+| 17 | OneLake security roles | 14 s | [EN](en/media/S14-A16-onelake-security.mp4) · [PL](pl/media/S14-A16-onelake-security.mp4) · [DE](de/media/S14-A16-onelake-security.mp4) | [D10](demos/runbooks/D10.md) |
+| 17 | Outbound access protection | 18 s | [EN](en/media/S14-A18-outbound-protection.mp4) · [PL](pl/media/S14-A18-outbound-protection.mp4) · [DE](de/media/S14-A18-outbound-protection.mp4) | [D11](demos/runbooks/D11.md) |
+| 18 | Policies in Fabric | 16 s | [EN](en/media/S15-A13-policies.mp4) · [PL](pl/media/S15-A13-policies.mp4) · [DE](de/media/S15-A13-policies.mp4) | [D12](demos/runbooks/D12.md) |
+| 18 | OneLake catalog Govern | 20 s | [EN](en/media/S15-A19-catalog-govern.mp4) · [PL](pl/media/S15-A19-catalog-govern.mp4) · [DE](de/media/S15-A19-catalog-govern.mp4) | [D13](demos/runbooks/D13.md) |
+| 26 | OneLake catalog search API | 30 s | [EN](en/media/S16-A20-catalog-search.mp4) · [PL](pl/media/S16-A20-catalog-search.mp4) · [DE](de/media/S16-A20-catalog-search.mp4) | [D14](demos/runbooks/D14.md) |
+| 27 | AI functions in a PySpark notebook | 29 s | [EN](en/media/S16-ai-functions.mp4) · [PL](pl/media/S16-ai-functions.mp4) · [DE](de/media/S16-ai-functions.mp4) | [D15](demos/runbooks/D15.md) |
+| 28 | Materialized lake views with data quality rules | 84 s | [EN](en/media/S16-mlv-medallion.mp4) · [PL](pl/media/S16-mlv-medallion.mp4) · [DE](de/media/S16-mlv-medallion.mp4) | [D16](demos/runbooks/D16.md) |
+| 29 | Fabric data agent answers from a lakehouse | 45 s | [EN](en/media/S16-data-agent.mp4) · [PL](pl/media/S16-data-agent.mp4) · [DE](de/media/S16-data-agent.mp4) | [D17](demos/runbooks/D17.md) |
+| 30 | OneLake table APIs: Unity Catalog and Iceberg REST | 25 s | [EN](en/media/S16-onelake-open-catalogs.mp4) · [PL](pl/media/S16-onelake-open-catalogs.mp4) · [DE](de/media/S16-onelake-open-catalogs.mp4) | [D18](demos/runbooks/D18.md) |
 
 <p align="center"><img src="social/slide-grid.png" alt="All 30 slides in the deck's grid view, opened with the G key" width="85%"></p>
+
+## Run the demos in your own tenant
+
+The [demos](demos/) folder rebuilds the environment behind the 18 product recordings in a Fabric tenant you control. One script creates an F8 capacity, a workspace, synthetic data, a semantic model, an eventhouse, a failing pipeline, notebooks, and a data agent. Each demo has a [runbook](demos/runbooks/) with the exact prompts in English, Polish, and German and the result you should see.
+
+```bash
+cd demos
+pip install -r requirements.txt
+cp config.example.env config.env   # your subscription, resource group, capacity name
+python3 fabdemo.py up
+python3 fabdemo.py capacity pause
+```
+
+F8 costs about 1.41 EUR per hour in France Central at the Azure retail price on October 21, 2026. The code is under the [MIT License](demos/LICENSE).
 
 ## Viewing the slides
 
@@ -212,6 +234,8 @@ dr Estera Kot is a Microsoft MVP (Data Platform), CTO at Clouds on Mars, and a f
 The slides, text, PDFs, and demo recordings are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Copy, share, and adapt them for any purpose, including commercially, as long as you credit the author and link this source:
 
 > Based on "FabCon Europe 2026 recap" by dr Estera Kot, https://github.com/ekote/fabcon-barcelona-2026-recap, licensed under CC BY 4.0.
+
+The code in [demos/](demos/) is under the [MIT License](demos/LICENSE).
 
 Not covered: the interview recording on slide 3, Microsoft product interfaces, logos, the meme image, the deck engine files, and the bundled fonts and icons. See [NOTICE.md](NOTICE.md) for details and [LICENSE](LICENSE) for the legal text.
 

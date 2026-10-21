@@ -6,6 +6,8 @@ The slides, text, PDFs, and demo recordings in this repository are licensed unde
 
 You may copy, share, adapt, and build on this material for any purpose, including commercially, as long as you give credit.
 
+The code in [demos/](demos/) (`fabdemo.py`, `build_demo_assets.py`, and the notebooks) is licensed under the [MIT License](demos/LICENSE). The runbooks and the synthetic data in that folder follow CC BY 4.0 like the rest of the repo.
+
 ## How to credit
 
 Use this line, or one with the same parts:

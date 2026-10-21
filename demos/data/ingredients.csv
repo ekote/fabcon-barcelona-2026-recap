@@ -1,0 +1,13 @@
+ingredient_id,ingredient_name,category,cost_qar_per_kg,intensity_index,longevity_index,freshness_index
+ING-01,Assam oud oil,oud,14500,65.0,12.0,2.0
+ING-02,Cambodian oud oil,oud,21000,68.0,10.0,1.0
+ING-03,Synthetic oud accord,oud,10500,78.0,2.0,3.0
+ING-04,Plantation oud oil,oud,32000,58.0,14.0,7.0
+ING-05,Musk base,base,4200,7.0,1.0,1.0
+ING-06,Amber accord,base,2800,8.0,4.0,2.0
+ING-07,Bergamot oil,top,3500,9.0,1.0,18.0
+ING-08,Sandalwood base,fixative,9500,0.0,99.0,0.0
+ING-09,Labdanum absolute,fixative,26000,0.0,99.0,0.0
+ING-10,Saffron absolute S-7,booster,48000,14.0,6.0,0.0
+ING-11,Cardamom extract S-3,booster,31000,45.0,2.0,1.0
+ING-12,Ambergris tincture,precious,55000,0.0,0.0,0.0

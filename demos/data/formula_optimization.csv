@@ -1,0 +1,7 @@
+formula_id,baseline_cost_qar_per_kg,optimized_cost_qar_per_kg,saving_pct,baseline_intensity,optimized_intensity,recommended_changes,method
+OB-101,9443.0,8885.0,5.9,23.33,23.03,Assam oud oil -8 pts; Synthetic oud accord +6 pts; Musk base -6 pts; Amber accord +8 pts,grid-search-v1
+OB-102,13074.0,12059.0,7.8,22.66,22.83,Cambodian oud oil -8 pts; Synthetic oud accord +7 pts; Musk base -7 pts; Amber accord +8 pts,grid-search-v1
+OB-103,11135.0,10640.0,4.4,31.16,31.57,Assam oud oil -8 pts; Synthetic oud accord +7 pts; Musk base -7 pts; Amber accord +8 pts,grid-search-v1
+OB-104,14353.0,13298.0,7.4,32.02,32.32,Assam oud oil -1 pts; Cambodian oud oil -8 pts; Synthetic oud accord +8 pts; Musk base -7 pts; Amber accord +8 pts,grid-search-v1
+OB-105,13273.0,11189.0,15.7,25.48,24.32,Synthetic oud accord +4 pts; Plantation oud oil -8 pts; Musk base -4 pts; Amber accord +8 pts,grid-search-v1
+OB-106,8697.0,8076.0,7.1,23.4,22.39,Assam oud oil -8 pts; Synthetic oud accord +5 pts; Musk base -5 pts; Amber accord +8 pts,grid-search-v1

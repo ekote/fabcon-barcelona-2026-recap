@@ -1,0 +1,21 @@
+chunk_id,doc_id,study_id,section,language,confidentiality,chunk_text
+DOC-11-C1,DOC-11,ST-11,summary,en,internal,"Paired blotter test over two days with 36 testers at Panel A. Formula OB-102 (rose line, saffron absolute S-7 at 1.5 percent) was compared with OB-101 (classic oud, cardamom extract S-3)."
+DOC-11-C2,DOC-11,ST-11,results,en,internal,OB-102 reached 57 percent first choice against 48 percent for OB-101. The dwell ratio followed the same direction. Skin longevity scores were unchanged between the two formulas.
+DOC-11-C3,DOC-11,ST-11,recommendation,en,internal,"Recommendation: keep OB-102 as the reference for the rose line. The gain is attributed to saffron absolute S-7, not to the rose base itself. Repeat with S-7 on the classic base before any reformulation."
+DOC-11-C4,DOC-11,ST-11,notes,en,internal,"Limitation: single site, two-day exposure. Dilution in alcohol differed by 4 percent between the two samples."
+DOC-12-C1,DOC-12,ST-12,summary,fr,internal,"Test en paire sur blotters avec 40 testeurs au Panel B. La formule OB-104 (ligne export, safran absolu S-7 à 2 pour cent) a été comparée à OB-103 (ligne export, extrait de cardamome S-3)."
+DOC-12-C2,DOC-12,ST-12,results,fr,internal,OB-104 atteint 68 pour cent de premier choix contre 51 pour cent pour OB-103. Le ratio de tenue en main confirme l'écart. Aucun rejet n'a été observé.
+DOC-12-C3,DOC-12,ST-12,recommendation,fr,internal,"Recommandation : passer OB-104 en essai pilote industriel. Le niveau de S-7 ne doit pas descendre sous 1,5 pour cent, seuil sous lequel le gain de préférence disparaît sur le panel export."
+DOC-12-C4,DOC-12,ST-12,notes,fr,internal,Limite : l'absolu de labdanum à 5 pour cent augmente le coût matière. Une optimisation du coût est demandée avant le lancement.
+DOC-13-C1,DOC-13,ST-13,summary,en,restricted,"First screening of OB-105 (plantation oud oil 22 percent, synthetic oud accord 10 percent) with 32 testers at Panel A, against the commercial reference OB-101."
+DOC-13-C2,DOC-13,ST-13,results,en,restricted,"OB-105 reached 44 percent first choice. Testers pulled back at the first sniff, and interest recovered in the dry-down on day two. The opening was described by the panel leader as harsh and smoky."
+DOC-13-C3,DOC-13,ST-13,recommendation,en,restricted,Recommendation: do not proceed with OB-105 as blended. Test a four-week maceration step before bottling and increase cardamom extract S-3 from 2 to 3 percent.
+DOC-13-C4,DOC-13,ST-13,notes,en,restricted,Restricted: contains supplier pricing for plantation oud oil under negotiation.
+DOC-14-C1,DOC-14,ST-14,summary,en,restricted,Repeat of ST-13 after the process change. OB-105 was produced with a four-week maceration after blending. Formula percentages were unchanged. 32 testers at Panel A.
+DOC-14-C2,DOC-14,ST-14,results,en,restricted,"OB-105 reached 61 percent first choice, up from 44 percent in ST-13. The harsh opening was no longer reported."
+DOC-14-C3,DOC-14,ST-14,recommendation,en,restricted,"Recommendation: the maceration step, not the formula, drives acceptance of plantation oud. Approve OB-105 for a consumer wear test at home. Cost remains the open issue because plantation oud oil is the most expensive oud material in the portfolio."
+DOC-14-C4,DOC-14,ST-14,notes,en,restricted,Restricted: contains supplier pricing for plantation oud oil under negotiation.
+DOC-15-C1,DOC-15,ST-15,summary,fr,internal,Test monadique puis en paire sur 30 testeurs du panel de jour au Panel C. OB-106 contient 10 pour cent de bergamote et une part réduite de bois de santal.
+DOC-15-C2,DOC-15,ST-15,results,fr,internal,OB-106 atteint 53 pour cent de premier choix face à la référence. La tenue sur peau reste stable sur cinq jours de port.
+DOC-15-C3,DOC-15,ST-15,recommendation,fr,internal,"Recommandation : conserver le niveau de bergamote. Tester un dosage de safran S-7 à 1 pour cent pour compenser la base allégée, qui réduit la préférence sur le panel de jour."
+DOC-15-C4,DOC-15,ST-15,notes,fr,internal,"Limite : panel de petite taille, port de jour uniquement."

@@ -1,0 +1,8 @@
+formula_id,formula_name,line,occasion,status,target_intensity,created_date,cost_qar_per_kg,intensity_index,longevity_index,study_id,first_choice_pct,dwell_ratio,trial_date,panel_site
+OB-101,Oud Classic,gulf,evening,commercial,23.0,2025-03-10,9443.0,23.33,14.29,ST-11,48.0,0.49,2025-09-12,Panel A
+OB-102,Oud Rose,gulf,evening,commercial,22.5,2025-06-02,13074.0,22.66,15.64,ST-11,57.0,0.58,2025-09-12,Panel A
+OB-103,Oud Amber,export,evening,commercial,31.0,2025-04-18,11135.0,31.16,18.59,ST-12,51.0,0.52,2025-11-03,Panel B
+OB-104,Oud Saffron S-7,export,evening,pilot,32.0,2026-01-22,14353.0,32.02,18.18,ST-12,68.0,0.71,2026-02-20,Panel B
+OB-105,Oud Plantation,gulf,evening,pilot,24.0,2026-02-14,13273.0,25.48,13.13,ST-13,44.0,0.45,2026-03-15,Panel A
+OB-105,Oud Plantation,gulf,evening,pilot,24.0,2026-02-14,13273.0,25.48,13.13,ST-14,61.0,0.63,2026-06-09,Panel A
+OB-106,Oud Daylight,gulf,daytime,concept,22.0,2026-05-05,8697.0,23.4,8.57,ST-15,53.0,0.54,2026-07-01,Panel C

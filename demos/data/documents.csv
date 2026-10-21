@@ -1,0 +1,6 @@
+doc_id,study_id,title,language,doc_type,confidentiality,owner_team,doc_date,file_name
+DOC-11,ST-11,"Study ST-11: Paired blotter test, gulf panel, classic vs rose base",en,preference study report,internal,Fragrance R&D,2025-09-30,ST-11_en_preference-report.pdf
+DOC-12,ST-12,"Étude ST-12 : Préférence du panel export, dosage du safran S-7",fr,preference study report,internal,Fragrance R&D,2026-02-28,ST-12_fr_preference-report.pdf
+DOC-13,ST-13,"Study ST-13: Plantation oud acceptance, gulf panel, first screening",en,preference study report,restricted,Sustainable Sourcing Programme,2026-03-28,ST-13_en_preference-report.pdf
+DOC-14,ST-14,Study ST-14: Plantation oud acceptance after process change,en,preference study report,restricted,Sustainable Sourcing Programme,2026-06-20,ST-14_en_preference-report.pdf
+DOC-15,ST-15,"Étude ST-15 : Panel de jour, formule allégée OB-106",fr,preference study report,internal,Fragrance R&D,2026-07-12,ST-15_fr_preference-report.pdf

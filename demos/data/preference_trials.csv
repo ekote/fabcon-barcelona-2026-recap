@@ -1,0 +1,8 @@
+trial_id,formula_id,study_id,panel_segment,n_testers,first_choice_pct,dwell_ratio,trial_date,panel_site
+TR-2001,OB-101,ST-11,gulf,36,48.0,0.49,2025-09-12,Panel A
+TR-2002,OB-102,ST-11,gulf,36,57.0,0.58,2025-09-12,Panel A
+TR-2003,OB-103,ST-12,export,40,51.0,0.52,2025-11-03,Panel B
+TR-2004,OB-104,ST-12,export,40,68.0,0.71,2026-02-20,Panel B
+TR-2005,OB-105,ST-13,gulf,32,44.0,0.45,2026-03-15,Panel A
+TR-2006,OB-105,ST-14,gulf,32,61.0,0.63,2026-06-09,Panel A
+TR-2007,OB-106,ST-15,gulf,30,53.0,0.54,2026-07-01,Panel C

@@ -1,0 +1,8 @@
+# fabdemo.py
+requests>=2.31
+pyarrow>=15
+
+# build_demo_assets.py, only if you want to regenerate the synthetic data
+pandas>=2.0
+matplotlib>=3.8
+reportlab>=4.0

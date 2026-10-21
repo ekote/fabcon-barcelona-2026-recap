@@ -1,0 +1,7 @@
+formula_id,formula_name,line,occasion,status,target_intensity,created_date
+OB-101,Oud Classic,gulf,evening,commercial,23.0,2025-03-10
+OB-102,Oud Rose,gulf,evening,commercial,22.5,2025-06-02
+OB-103,Oud Amber,export,evening,commercial,31.0,2025-04-18
+OB-104,Oud Saffron S-7,export,evening,pilot,32.0,2026-01-22
+OB-105,Oud Plantation,gulf,evening,pilot,24.0,2026-02-14
+OB-106,Oud Daylight,gulf,daytime,concept,22.0,2026-05-05

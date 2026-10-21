@@ -1,0 +1,342 @@
+{
+ "id": "9cc719e8-cfe1-479d-955f-04aefff2bb52",
+ "is_selected": false,
+ "display_name": "Schemas",
+ "type": "schema_grouping",
+ "description": null,
+ "children": [
+  {
+   "id": "9b95fb51-dd09-44fb-964f-45f510b9c3b8",
+   "is_selected": false,
+   "display_name": "dbo",
+   "type": "lakehouse_tables.schema",
+   "description": null,
+   "children": [
+    {
+     "id": "72e1e63b-38b5-4d3d-a1e1-b0a594a43704",
+     "is_selected": false,
+     "display_name": "Tables",
+     "type": "table_grouping",
+     "description": null,
+     "children": [
+      {
+       "id": "1e80f48a-c73e-40a7-b9a6-2db49d4e442c",
+       "is_selected": true,
+       "display_name": "formula_ingredients",
+       "type": "lakehouse_tables.table",
+       "description": null,
+       "children": [
+        {
+         "id": "6e3a30fa-7be1-4f37-850e-268c99447803",
+         "is_selected": true,
+         "display_name": "formula_id",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "de9e21d0-876d-407d-bb53-6f17e443939f",
+         "is_selected": true,
+         "display_name": "ingredient_id",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "31f9b92e-145b-43b2-ab16-a8e193e19714",
+         "is_selected": true,
+         "display_name": "inclusion_pct",
+         "type": "lakehouse_tables.column",
+         "data_type": "float",
+         "description": null,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "3f87d025-e712-4571-af06-d4cc3d155e5c",
+       "is_selected": true,
+       "display_name": "formula_metrics",
+       "type": "lakehouse_tables.table",
+       "description": null,
+       "children": [
+        {
+         "id": "24e2745e-54b0-414f-9d2b-1d851ced4f2b",
+         "is_selected": true,
+         "display_name": "formula_id",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "7e463719-3217-4e54-9f93-915ba6c2f088",
+         "is_selected": true,
+         "display_name": "cost_qar_per_kg",
+         "type": "lakehouse_tables.column",
+         "data_type": "float",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "121c0871-7ff7-40ff-80a9-f2c6557788c2",
+         "is_selected": true,
+         "display_name": "intensity_index",
+         "type": "lakehouse_tables.column",
+         "data_type": "float",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "31b35566-7115-4bcf-91f9-4e837c174e02",
+         "is_selected": true,
+         "display_name": "longevity_index",
+         "type": "lakehouse_tables.column",
+         "data_type": "float",
+         "description": null,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "d7409431-6607-4060-b913-04750d00e3e3",
+       "is_selected": true,
+       "display_name": "formulas",
+       "type": "lakehouse_tables.table",
+       "description": null,
+       "children": [
+        {
+         "id": "22e479fb-900d-4ead-92f6-a1613319a15d",
+         "is_selected": true,
+         "display_name": "formula_id",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "fbcd3561-96f5-4bfa-863a-56bd2801cfeb",
+         "is_selected": true,
+         "display_name": "formula_name",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "b97f50cb-484a-4bfd-a1b6-762f935ecbf1",
+         "is_selected": true,
+         "display_name": "line",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "a827b817-a079-4895-98ce-e9bb91d1443a",
+         "is_selected": true,
+         "display_name": "occasion",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "f1be6ef8-736a-4aa8-bb1c-e85b18e12ee2",
+         "is_selected": true,
+         "display_name": "status",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "5839be8a-a966-422b-9efc-6bc8249fcc01",
+         "is_selected": true,
+         "display_name": "target_intensity",
+         "type": "lakehouse_tables.column",
+         "data_type": "float",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "de62e0e1-212c-4376-9f3f-0d9762b49543",
+         "is_selected": true,
+         "display_name": "created_date",
+         "type": "lakehouse_tables.column",
+         "data_type": "date",
+         "description": null,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "e0312ebc-ed48-4bcc-929a-d7dd6ae7ca3e",
+       "is_selected": true,
+       "display_name": "ingredients",
+       "type": "lakehouse_tables.table",
+       "description": null,
+       "children": [
+        {
+         "id": "b4ae1ac5-dcef-4399-8457-a280cde5d7e0",
+         "is_selected": true,
+         "display_name": "ingredient_id",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "e9b17bbe-c4b6-4153-b240-5dc163bac12c",
+         "is_selected": true,
+         "display_name": "ingredient_name",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "3660d77a-795b-4b5c-8ed5-6945b76eb3a8",
+         "is_selected": true,
+         "display_name": "category",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "7dcb30bc-9104-405e-b7c1-bd80b276b494",
+         "is_selected": true,
+         "display_name": "cost_qar_per_kg",
+         "type": "lakehouse_tables.column",
+         "data_type": "int",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "cb7a801f-a1c5-46b9-86fc-7ae6e68cbbb5",
+         "is_selected": true,
+         "display_name": "intensity_index",
+         "type": "lakehouse_tables.column",
+         "data_type": "float",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "44ef17dd-4ad0-44bd-841b-8f10e249810a",
+         "is_selected": true,
+         "display_name": "longevity_index",
+         "type": "lakehouse_tables.column",
+         "data_type": "float",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "2d90cb30-1849-4755-a4cb-4d70a58624ce",
+         "is_selected": true,
+         "display_name": "freshness_index",
+         "type": "lakehouse_tables.column",
+         "data_type": "float",
+         "description": null,
+         "children": []
+        }
+       ]
+      },
+      {
+       "id": "18452970-dd23-4868-b207-c730f1b70128",
+       "is_selected": true,
+       "display_name": "preference_trials",
+       "type": "lakehouse_tables.table",
+       "description": null,
+       "children": [
+        {
+         "id": "160b8ae0-bfa6-46cd-a951-487b488da9d4",
+         "is_selected": true,
+         "display_name": "trial_id",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "b2bca1fa-0643-4d90-bf0c-aecb4cc6a180",
+         "is_selected": true,
+         "display_name": "formula_id",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "a407add6-3ff2-4e4d-ae0d-150693f929f0",
+         "is_selected": true,
+         "display_name": "study_id",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "22be77fc-5ad1-4543-b5fd-fd258a0494f5",
+         "is_selected": true,
+         "display_name": "panel_segment",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "36e6acd2-9122-4a3c-9237-83a3f3f87764",
+         "is_selected": true,
+         "display_name": "n_testers",
+         "type": "lakehouse_tables.column",
+         "data_type": "int",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "735da542-a3a0-4087-80ae-5eae15361665",
+         "is_selected": true,
+         "display_name": "first_choice_pct",
+         "type": "lakehouse_tables.column",
+         "data_type": "float",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "837d954e-99dc-4871-88ef-d22d2b8e629b",
+         "is_selected": true,
+         "display_name": "dwell_ratio",
+         "type": "lakehouse_tables.column",
+         "data_type": "float",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "f3b0c62f-28ac-4484-b204-96cbafefc9d5",
+         "is_selected": true,
+         "display_name": "trial_date",
+         "type": "lakehouse_tables.column",
+         "data_type": "date",
+         "description": null,
+         "children": []
+        },
+        {
+         "id": "df59d729-f2aa-40dc-a549-c4c084db8059",
+         "is_selected": true,
+         "display_name": "panel_site",
+         "type": "lakehouse_tables.column",
+         "data_type": "varchar",
+         "description": null,
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
