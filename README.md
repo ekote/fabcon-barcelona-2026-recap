@@ -3,13 +3,23 @@
 </p>
 
 <p align="center">
-[![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-FabCon%20Europe%202026-0F6CBD?style=flat-square)](#status-of-every-announcement) [![Statuses checked](https://img.shields.io/badge/statuses%20checked-2026--10--21-4FA3E3?style=flat-square)](#status-of-every-announcement) [![Languages](https://img.shields.io/badge/slides-EN%20%7C%20PL%20%7C%20DE-07101E?style=flat-square)](#slides-pdf-and-recordings) [![Recordings](https://img.shields.io/badge/recordings-20%20per%20language-1F7A4D?style=flat-square)](#demo-recordings) [![GitHub Pages](https://img.shields.io/github/deployments/ekote/fabcon-barcelona-2026-recap/github-pages?label=site&style=flat-square)](https://ekote.github.io/fabcon-barcelona-2026-recap/) [![Microsoft MVP](https://img.shields.io/badge/Microsoft-MVP-0078D4?style=flat-square)](#about-the-author) [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-EF9421?style=flat-square)](#license)
+<a href="#status-of-every-announcement"><img src="https://img.shields.io/badge/Microsoft%20Fabric-FabCon%20Europe%202026-0F6CBD?style=flat-square" alt="Microsoft Fabric: FabCon Europe 2026" height="20"></a>
+<a href="#status-of-every-announcement"><img src="https://img.shields.io/badge/statuses%20checked-2026--10--21-4FA3E3?style=flat-square" alt="Statuses checked 2026-10-21" height="20"></a>
+<a href="#slides-pdf-and-recordings"><img src="https://img.shields.io/badge/slides-EN%20%7C%20PL%20%7C%20DE-07101E?style=flat-square" alt="Slides in English, Polish, and German" height="20"></a>
+<a href="#demo-recordings"><img src="https://img.shields.io/badge/recordings-20%20per%20language-1F7A4D?style=flat-square" alt="20 recordings per language" height="20"></a>
+<a href="https://ekote.github.io/fabcon-barcelona-2026-recap/"><img src="https://img.shields.io/github/deployments/ekote/fabcon-barcelona-2026-recap/github-pages?label=site&style=flat-square" alt="Website status" height="20"></a>
+<a href="#about-the-author"><img src="https://img.shields.io/badge/Microsoft-MVP-0078D4?style=flat-square" alt="Microsoft MVP" height="20"></a>
+<a href="#license"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-EF9421?style=flat-square" alt="License: CC BY 4.0" height="20"></a>
 </p>
 
 <p align="center">
-[![English](https://img.shields.io/badge/slides-English-4FA3E3?style=for-the-badge)](https://ekote.github.io/fabcon-barcelona-2026-recap/en/) [![Polski](https://img.shields.io/badge/slides-Polski-4FA3E3?style=for-the-badge)](https://ekote.github.io/fabcon-barcelona-2026-recap/pl/) [![Deutsch](https://img.shields.io/badge/slides-Deutsch-4FA3E3?style=for-the-badge)](https://ekote.github.io/fabcon-barcelona-2026-recap/de/)
+<a href="https://ekote.github.io/fabcon-barcelona-2026-recap/en/"><img src="https://img.shields.io/badge/slides-English-4FA3E3?style=for-the-badge" alt="Open the slides in English" height="28"></a>
+<a href="https://ekote.github.io/fabcon-barcelona-2026-recap/pl/"><img src="https://img.shields.io/badge/slides-Polski-4FA3E3?style=for-the-badge" alt="Open the slides in Polski" height="28"></a>
+<a href="https://ekote.github.io/fabcon-barcelona-2026-recap/de/"><img src="https://img.shields.io/badge/slides-Deutsch-4FA3E3?style=for-the-badge" alt="Open the slides in Deutsch" height="28"></a>
 <br>
-[![PDF English](https://img.shields.io/badge/PDF-English-B85C00?style=for-the-badge)](en/fabcon-barcelona-2026-recap-en.pdf) [![PDF Polski](https://img.shields.io/badge/PDF-Polski-B85C00?style=for-the-badge)](pl/fabcon-barcelona-2026-recap-pl.pdf) [![PDF Deutsch](https://img.shields.io/badge/PDF-Deutsch-B85C00?style=for-the-badge)](de/fabcon-barcelona-2026-recap-de.pdf)
+<a href="en/fabcon-barcelona-2026-recap-en.pdf"><img src="https://img.shields.io/badge/PDF-English-B85C00?style=for-the-badge" alt="PDF in English" height="28"></a>
+<a href="pl/fabcon-barcelona-2026-recap-pl.pdf"><img src="https://img.shields.io/badge/PDF-Polski-B85C00?style=for-the-badge" alt="PDF in Polski" height="28"></a>
+<a href="de/fabcon-barcelona-2026-recap-de.pdf"><img src="https://img.shields.io/badge/PDF-Deutsch-B85C00?style=for-the-badge" alt="PDF in Deutsch" height="28"></a>
 </p>
 
 # FabCon Europe 2026 Barcelona recap: what shipped in Microsoft Fabric, GA vs preview
