@@ -114,6 +114,15 @@ Yes. The demos folder has a Python script that creates an F8 capacity, a workspa
 - [Fabric data agent answers from a lakehouse](https://ekote.github.io/fabcon-barcelona-2026-recap/en/media/S16-data-agent.mp4) (45 s): A data agent answers two questions with SQL over a lakehouse, and both answers match the data. Runbook: https://github.com/ekote/fabcon-barcelona-2026-recap/blob/main/demos/runbooks/D17.md
 - [OneLake table APIs: Unity Catalog and Iceberg REST](https://ekote.github.io/fabcon-barcelona-2026-recap/en/media/S16-onelake-open-catalogs.mp4) (25 s): The same Delta tables read through the Unity Catalog API and the Iceberg REST Catalog. Runbook: https://github.com/ekote/fabcon-barcelona-2026-recap/blob/main/demos/runbooks/D18.md
 
+## Limits
+
+- Statuses are a snapshot from October 21, 2026, checked against Microsoft Learn. Microsoft relabels features often.
+- TBC means two sources disagree or Learn shows no label. The recap does not guess.
+- Keynote claims are marked as keynote claims. Where Learn disagreed, the table says so.
+- Four announcements have no demo. Fabric IQ in Microsoft 365 Copilot Chat and the data agent in Copilot Studio need licenses the demo tenant does not have, and database agents and agentic apps had not shipped.
+- All demos ran on synthetic data in one test tenant, on an F8 capacity in France Central. Portal labels move, so a runbook step can drift.
+- The Polish and German data agent answers worked in the demos, but Learn describes questions in English only.
+
 ## Run the demos
 
 - [Demo environment and runbooks](https://github.com/ekote/fabcon-barcelona-2026-recap/tree/main/demos): Python script (MIT) that rebuilds the 18 product demos in your own Microsoft Fabric tenant on synthetic data, F8 capacity.

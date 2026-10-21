@@ -1,0 +1,33 @@
+name: Status update
+description: A feature in the status table changed status, or its source moved.
+title: "[Status] "
+labels: [status]
+body:
+  - type: input
+    id: feature
+    attributes:
+      label: Feature
+      description: The ID and name from the status table.
+      placeholder: S7 Operations agent in Monitor hub
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: New status
+      options: [GA, PREVIEW, ROADMAP, Retired, Other]
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A Microsoft Learn page or an official Microsoft announcement.
+      placeholder: https://learn.microsoft.com/...
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: What the source says
+      description: Paste the sentence that shows the status.

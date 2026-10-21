@@ -72,6 +72,15 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);color:v
 <img class="hero" src="social/og-image.png" alt="FabCon Europe 2026 recap: what shipped in Microsoft Fabric, and what's still preview" width="1200" height="630">
 </header>
 
+<section id="use">
+<h2>Use this recap to</h2>
+<ul class="take">
+<li><a href="#status"><strong>Check a status</strong></a> before you plan on a feature: 22 announcements labeled GA, PREVIEW, ROADMAP, or TBC, each with a Microsoft source.</li>
+<li><a href="#slides"><strong>Give the talk yourself</strong></a> with 30 slides in English, Polish, and German, PDFs, and recordings, all under CC BY 4.0.</li>
+<li><a href="#run-the-demos"><strong>Run the demos</strong></a> in your own tenant: one command builds the environment for all 18, and each demo has a runbook.</li>
+</ul>
+</section>
+
 <section id="takeaways">
 <h2>Key takeaways from FabCon Europe 2026</h2>
 <ul class="take">
@@ -96,6 +105,7 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);color:v
 <section id="status">
 <h2>Status of every FabCon Europe 2026 announcement</h2>
 <p>GA means generally available, PREVIEW means public preview, ROADMAP means announced with no date, and TBC means sources disagree or Learn shows no label. Checked against Microsoft Learn on October 21, 2026. Statuses change fast, so check the source before you rely on one.</p>
+<p class="muted">Spot a status that changed? <a href="https://github.com/ekote/fabcon-barcelona-2026-recap/issues/new?template=status-update.yml">Send a status update</a> with the source link. Confirmed changes go into the table with a new check date.</p>
 <div class="wrap"><table>
 <thead><tr><th>ID</th><th>Feature</th><th>Status</th><th>What it means</th></tr></thead>
 <tbody>
@@ -214,6 +224,19 @@ footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);color:v
 <p>The <a href="https://github.com/ekote/fabcon-barcelona-2026-recap/tree/main/demos">demos folder</a> rebuilds the environment behind the 18 product recordings: one Python script creates the capacity, the workspace, synthetic data, a semantic model, an eventhouse, a failing pipeline, notebooks, and a data agent. Each demo has a runbook with the exact prompts in English, Polish, and German and the result you should see.</p>
 <code>python3 fabdemo.py up</code>
 <p class="muted">Runs on an F8 capacity, about 1.41 EUR per hour in France Central at the Azure retail price on October 21, 2026. Pause or delete it with one command when you are done. Code under the MIT License.</p>
+</section>
+
+<section id="limits">
+<h2>Limits, stated up front</h2>
+<ul>
+<li>Statuses are a snapshot from October 21, 2026, checked against Microsoft Learn. Microsoft relabels features often.</li>
+<li>TBC means two sources disagree or Learn shows no label. The recap does not guess.</li>
+<li>Keynote claims are marked as keynote claims. Where Learn disagreed, the table says so.</li>
+<li>Four announcements have no demo. Fabric IQ in Microsoft 365 Copilot Chat and the data agent in Copilot Studio need licenses the demo tenant does not have, and database agents and agentic apps had not shipped.</li>
+<li>All demos ran on synthetic data in one test tenant, on an F8 capacity in France Central. Portal labels move, so a runbook step can drift.</li>
+<li>The Polish and German data agent answers worked in the demos, but Learn describes questions in English only.</li>
+</ul>
+<p class="muted">A runbook step no longer matches what Fabric shows? <a href="https://github.com/ekote/fabcon-barcelona-2026-recap/issues/new?template=demo-drift.yml">Report it</a>.</p>
 </section>
 
 <section id="author">

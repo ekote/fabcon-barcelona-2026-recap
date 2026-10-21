@@ -29,6 +29,12 @@ FabCon and SQLCon Europe 2026 ran from September 28 to October 1, 2026, in Barce
 
 **Read it as a web page:** [ekote.github.io/fabcon-barcelona-2026-recap/](https://ekote.github.io/fabcon-barcelona-2026-recap/)
 
+**Use this recap to**
+
+- [**Check a status**](#status-of-every-announcement) before you plan on a feature: 22 announcements labeled GA, PREVIEW, ROADMAP, or TBC, each with a Microsoft source.
+- [**Give the talk yourself**](#slides-pdf-and-recordings) with 30 slides in English, Polish, and German, PDFs, and recordings, all under CC BY 4.0.
+- [**Run the demos**](#run-the-demos-in-your-own-tenant) in your own tenant: one command builds the environment for all 18, and each demo has a runbook.
+
 ## Key takeaways
 
 - Fabric data now leaves Fabric through three doors: Copilot Chat and Cowork, MCP servers, and Copilot Studio plus the OneLake Table Read API. Each door enforces the user's permissions, so the real question is who set them.
@@ -62,6 +68,8 @@ Each door enforces the user's permissions. The question is who set those permiss
 ## Status of every announcement
 
 GA means generally available, PREVIEW means public preview, ROADMAP means announced with no date, and TBC means sources disagree or Learn shows no label. Checked against Microsoft Learn on October 21, 2026.
+
+Spot a status that changed? [Send a status update](https://github.com/ekote/fabcon-barcelona-2026-recap/issues/new?template=status-update.yml) with the source link. Confirmed changes go into the table with a new check date.
 
 | ID | Feature | Status | What it means |
 |---|---|---|---|
@@ -214,6 +222,8 @@ python3 fabdemo.py capacity pause
 
 F8 costs about 1.41 EUR per hour in France Central at the Azure retail price on October 21, 2026. The code is under the [MIT License](demos/LICENSE).
 
+If this saved you an afternoon of release notes, star the repo so other Fabric people find it.
+
 ## Viewing the slides
 
 Open a slides link above, or download a language folder and open `index.html` in Chrome or Edge.
@@ -224,6 +234,17 @@ Open a slides link above, or download a language folder and open `index.html` in
 | F | Full screen |
 | G | All slides as thumbnails |
 | Button in the corner of a video or image | Enlarge it, Esc to go back |
+
+## Limits, stated up front
+
+- Statuses are a snapshot from October 21, 2026, checked against Microsoft Learn. Microsoft relabels features often.
+- TBC means two sources disagree or Learn shows no label. The recap does not guess.
+- Keynote claims are marked as keynote claims. Where Learn disagreed, the table says so.
+- Four announcements have no demo. Fabric IQ in Microsoft 365 Copilot Chat and the data agent in Copilot Studio need licenses the demo tenant does not have, and database agents and agentic apps had not shipped.
+- All demos ran on synthetic data in one test tenant, on an F8 capacity in France Central. Portal labels move, so a runbook step can drift.
+- The Polish and German data agent answers worked in the demos, but Learn describes questions in English only.
+
+A runbook step no longer matches what Fabric shows? [Report it](https://github.com/ekote/fabcon-barcelona-2026-recap/issues/new?template=demo-drift.yml).
 
 ## About the author
 

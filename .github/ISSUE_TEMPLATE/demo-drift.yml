@@ -1,0 +1,29 @@
+name: Demo step no longer matches
+description: A runbook step or a fabdemo.py command does not match what Fabric shows now.
+title: "[Demo] "
+labels: [demo]
+body:
+  - type: input
+    id: runbook
+    attributes:
+      label: Runbook
+      placeholder: D16
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The step or command, what you expected, and what you saw. Leave out tenant names and IDs.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Capacity region and SKU
+      placeholder: francecentral, F8
+  - type: dropdown
+    id: lang
+    attributes:
+      label: Demo language
+      options: [en, pl, de]

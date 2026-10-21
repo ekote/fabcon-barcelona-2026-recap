@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these slides, statuses, or demos, cite them as below."
+title: "FabCon Europe 2026 recap: what shipped in Microsoft Fabric, GA vs preview"
+authors:
+  - family-names: Kot
+    given-names: Estera
+date-released: 2026-10-21
+url: "https://ekote.github.io/fabcon-barcelona-2026-recap/"
+repository-code: "https://github.com/ekote/fabcon-barcelona-2026-recap"
+license: CC-BY-4.0
+keywords:
+  - Microsoft Fabric
+  - FabCon 2026
+  - OneLake
+  - Fabric IQ
+  - data engineering
