@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FabCon Barcelona 2026: what we had, what shipped, what's still missing</title>
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/nexus.css">
+    <link rel="stylesheet" href="gdynia.css">
+</head>
+<body>
+<div id="mobileNotice" class="mobile-notice" onclick="this.style.display='none'">
+    <div class="mobile-notice-content">
+        <i class="fas fa-sailboat mobile-notice-logo"></i>
+        <div class="mobile-notice-title">Best on a big screen</div>
+        <div class="mobile-notice-text">This deck is built for screens wider than 768 px.<br>Rotate your device or open it on a laptop.</div>
+        <div class="mobile-notice-dismiss">Tap to close</div>
+    </div>
+</div>
+<div class="mouse-spotlight" id="spotlight"></div>
+<div class="progress-wrap"><div class="progress-fill" id="progressFill"></div></div>
+<nav class="nav-controls">
+    <button class="nav-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+    <span class="slide-counter" id="counter">1 / 30</span>
+    <button class="nav-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+</nav>
+<div class="kb-hint"><kbd>&larr;</kbd><kbd>&rarr;</kbd> Navigate &nbsp; <kbd>G</kbd> Grid &nbsp; <kbd>F</kbd> Full screen</div>
+<button type="button" class="brand-logo" onclick="toggleGrid()" aria-label="Show all slides (grid)" title="All slides (G)"><i class="fas fa-sailboat"></i></button>
+
+<div class="presentation">
+<section class="slide active" id="slide-1">
+    <div class="slide-content"><div class="t-wrap">
+        <div class="t-rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="t-logos"><img class="mvp" src="assets/logos/mvp.png" alt="Microsoft Most Valuable Professional"></div>
+        <h1 class="t1">FabCon Barcelona 2026:<br><em>what we had, what shipped,<br>what's still missing</em></h1>
+        <div class="who"><img src="assets/estera.png" alt="dr Estera Kot"><div><div class="n">dr Estera Kot</div><div class="r">Microsoft MVP · Data Platform · Real-Time Analytics &amp; Ontology · former Principal PM on the Microsoft Fabric team</div></div></div>
+        <div class="t-meta"><b>Friday, October 23, 2026</b>Online session<br><span class="tbc">⟦TBC event name and start time⟧</span></div>
+        <svg class="waves" viewBox="0 0 1600 160" preserveAspectRatio="none" aria-hidden="true"><path d="M0 110 C 300 60, 500 150, 800 110 S 1300 60, 1600 110 V160 H0Z" fill="rgba(79,163,227,.10)"/><path d="M0 130 C 350 90, 550 165, 850 130 S 1350 90, 1600 130 V160 H0Z" fill="rgba(79,163,227,.16)"/></svg>
+    </div></div>
+</section>
+
+<section class="slide" id="slide-2" data-part="0">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>FabCon Europe 2026 · Barcelona</span></div>
+        <h2 class="action">Straight from the keynote. Four of these topics <em>get their own slides today</em>.</h2>
+        <div class="stage reel-stage">
+            <div class="reel"><video autoplay muted loop playsinline preload="auto" poster="media/fabcon-showreel.png"><source src="media/fabcon-showreel.mp4" type="video/mp4"></video></div>
+            <div class="shots">
+                <figure class="shot"><img src="media/keynote/kn-1-welcome.jpg" alt="Keynote opening, 8:47 a.m."><figcaption>Keynote opening, 8:47 a.m.</figcaption></figure>
+                <figure class="shot"><img src="media/keynote/kn-2-hall.jpg" alt="Main hall, 9:57 a.m."><figcaption>Main hall, 9:57 a.m.</figcaption></figure>
+                <figure class="shot"><img src="media/keynote/kn-3-microsoft-iq.jpg" alt="Microsoft IQ"><figcaption>Microsoft IQ · <b>slide 10</b></figcaption></figure>
+                <figure class="shot"><img src="media/keynote/kn-4-database-hub.jpg" alt="Database Hub in Fabric"><figcaption>Database Hub in Fabric · <b>slide 14</b></figcaption></figure>
+                <figure class="shot"><img src="media/keynote/kn-5-osmos.jpg" alt="Microsoft acquires Osmos"><figcaption>Microsoft acquires Osmos · <b>slide 13</b></figcaption></figure>
+                <figure class="shot"><img src="media/keynote/kn-6-on-demand-billing.jpg" alt="On-Demand Billing and F0"><figcaption>On-Demand Billing and F0 · <b>slide 20</b></figcaption></figure>
+            </div>
+        </div>
+        <div class="strip"><span class="strip-text">The third European FabCon and the first SQLCon. Arun Ulag, who leads Azure Data at Microsoft, opened the keynote.</span></div>
+    </div>
+</section>
+
+<section class="slide" id="slide-3" data-part="0">
+    <div class="slide-content talk"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="talk-col">
+            <div class="kicker"><span>FabCon Europe 2026</span></div>
+            <h2 class="action">One question for seven people at Microsoft: <em>you're a data engineer who has never used AI. What now?</em></h2>
+            <div class="vq-pair">
+                <blockquote class="vq"><p>“What [matters] even today in the AI world is the experience you bring with you. AI can do the code, but it cannot build the ecosystem you want for your customers.”</p><cite>Ajith Shetty, Fabric Spark Engineering</cite></blockquote>
+                <blockquote class="vq"><p>“I would use them as an assistant, not as a replacement for me to do the critical thinking.”</p><cite>Amanjeet Singh, Fabric Customer Advisory Team</cite></blockquote>
+            </div>
+        </div>
+        <div class="talk-video"><video data-sound playsinline preload="auto" poster="media/fabcon-interviews.png"><source src="media/fabcon-interviews.mp4" type="video/mp4"></video></div>
+    </div>
+</section>
+
+<section class="slide statement-slide" id="slide-4" data-part="1">
+    <div class="slide-content statement"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <p class="statement-text">Fabric has become a platform for agents.<br><strong>Have our settings kept up?</strong></p>
+    </div>
+</section>
+
+<section class="slide" id="slide-5" data-part="1">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div><div class="num">4</div>
+        <h2 class="action">Four questions and four labels: <em>GA, PREVIEW, ROADMAP, TBC</em>.</h2>
+        <div class="stage stage-col">
+            <div class="q-grid"><div class="q-card"><div class="q-num">01</div><h3>What we had</h3><p>Fabric before Barcelona</p></div><div class="q-card"><div class="q-num">02</div><h3>What shipped</h3><p>New features labeled GA or preview</p></div><div class="q-card"><div class="q-num">03</div><h3>What's still missing</h3><p>The roadmap, no spin</p></div><div class="q-card"><div class="q-num">04</div><h3>What it means for us</h3><p>Where to start</p></div></div>
+            <div class="legend-block">
+                <div class="legend-head">What the labels mean</div>
+                <div class="legend-row"><div class="legend-item"><span class="badge badge-ga">GA</span><span>generally available</span></div><div class="legend-item"><span class="badge badge-preview">PREVIEW</span><span>public preview</span></div><div class="legend-item"><span class="badge badge-roadmapa">ROADMAP</span><span>announced, no date</span></div><div class="legend-item"><span class="badge badge-tbc">TBC</span><span>status to be confirmed</span></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-6" data-part="1">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Part 1 · What we had</span></div>
+        <h2 class="action">Before Barcelona, Copilot and the data agent worked <em>inside Fabric</em>. The answer never left the platform.</h2>
+        <div class="ring-layout">
+            <div class="ring-figure"><svg class="ring-svg" viewBox="0 0 660 600" role="img" aria-label="OneLake in the center, workloads around it, Copilot and the data agent inside the ring"><defs><radialGradient id="olg" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#9ED0F5"/><stop offset="1" stop-color="#4FA3E3"/></radialGradient></defs><circle cx="330" cy="300" r="205" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="2" stroke-dasharray="6 8"/><circle cx="330" cy="300" r="127" fill="rgba(79,163,227,0.08)" stroke="#4FA3E3" stroke-opacity=".35" stroke-width="1.5"/><line x1="330" y1="300" x2="330" y2="95" stroke="rgba(255,255,255,.14)" stroke-width="2"/><rect x="250" y="70" width="160" height="50" rx="14" fill="#0E1F3A" stroke="rgba(255,255,255,.18)" stroke-width="1.5"/><text x="330" y="102" text-anchor="middle" font-family="Inter, sans-serif" font-size="19" font-weight="600" fill="#EAF0F6">Lakehouse</text><line x1="330" y1="300" x2="525" y2="237" stroke="rgba(255,255,255,.14)" stroke-width="2"/><rect x="445" y="212" width="160" height="50" rx="14" fill="#0E1F3A" stroke="rgba(255,255,255,.18)" stroke-width="1.5"/><text x="525" y="244" text-anchor="middle" font-family="Inter, sans-serif" font-size="19" font-weight="600" fill="#EAF0F6">Warehouse</text><line x1="330" y1="300" x2="450" y2="466" stroke="rgba(255,255,255,.14)" stroke-width="2"/><rect x="335" y="441" width="230" height="50" rx="14" fill="#0E1F3A" stroke="rgba(255,255,255,.18)" stroke-width="1.5"/><text x="450" y="473" text-anchor="middle" font-family="Inter, sans-serif" font-size="19" font-weight="600" fill="#EAF0F6">Real-Time Intelligence</text><line x1="330" y1="300" x2="210" y2="466" stroke="rgba(255,255,255,.14)" stroke-width="2"/><rect x="130" y="441" width="160" height="50" rx="14" fill="#0E1F3A" stroke="rgba(255,255,255,.18)" stroke-width="1.5"/><text x="210" y="473" text-anchor="middle" font-family="Inter, sans-serif" font-size="19" font-weight="600" fill="#EAF0F6">Power BI</text><line x1="330" y1="300" x2="135" y2="237" stroke="rgba(255,255,255,.14)" stroke-width="2"/><rect x="55" y="212" width="160" height="50" rx="14" fill="#0E1F3A" stroke="rgba(255,255,255,.18)" stroke-width="1.5"/><text x="135" y="244" text-anchor="middle" font-family="Inter, sans-serif" font-size="19" font-weight="600" fill="#EAF0F6">Data Factory</text><circle cx="330" cy="300" r="70" fill="url(#olg)"/><text x="330" y="308" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">OneLake</text><rect x="192" y="236" width="124" height="40" rx="20" fill="#4FA3E3"/><text x="254" y="262" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#07101E" letter-spacing=".04em">Copilot</text><rect x="344" y="236" width="124" height="40" rx="20" fill="#4FA3E3"/><text x="406" y="262" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#07101E" letter-spacing=".04em">Data agent</text><text x="330" y="408" text-anchor="middle" font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#4FA3E3" letter-spacing=".12em">AI INSIDE THE RING</text></svg></div>
+            <div class="ring-notes">
+                <div class="ring-note"><div class="ring-note-num">1</div><p><strong>OneLake in the center.</strong> The workloads sit around it: Lakehouse, Warehouse, Real-Time Intelligence, Power BI, Data Factory.</p></div>
+                <div class="ring-note"><div class="ring-note-num">2</div><p><strong>Copilot and the data agent lived inside the ring.</strong> We asked in Fabric, and the answer stayed in Fabric.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-7" data-part="1">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Part 1 · What we had</span></div>
+        <h2 class="action">After Barcelona, Fabric also answers questions <em>from outside the platform</em>: from Copilot Chat, MCP clients, and Foundry.</h2>
+        <div class="before-after-grid">
+            <div class="ba-section before">
+                <div class="ba-label">Before</div>
+                <div class="ba-card">
+                    <div class="ba-icon bad"><i class="fas fa-chart-column"></i></div>
+                    <h3>We ask Copilot in a Power BI report</h3>
+                    <ul class="ba-list">
+                        <li>The answer stays in Fabric.</li>
+                        <li>The data goes to a person looking at the report.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ba-divider"><div class="ba-arrow"><i class="fas fa-arrow-right"></i></div></div>
+            <div class="ba-section after">
+                <div class="ba-label">After</div>
+                <div class="ba-card">
+                    <div class="ba-icon good"><i class="fas fa-robot"></i></div>
+                    <h3>Agents query Fabric from the outside</h3>
+                    <ul class="ba-list">
+                        <li>Questions come from Microsoft 365 Copilot Chat, MCP clients, and Foundry.</li>
+                        <li>The main consumer of the data is now an agent.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="strip strip-big"><span class="strip-text">Fabric is no longer just the place where we ask questions. <strong>It is now a source agents pull answers from.</strong></span></div>
+    </div>
+</section>
+
+<section class="slide" id="slide-8" data-part="1">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div><div class="num">2</div>
+        <div class="kicker"><span>Part 1 · What we had</span></div>
+        <h2 class="action">Two settings are on by default in every tenant. <em>Who here has checked them?</em></h2>
+        <div class="stage">
+            <div class="feature feature-half">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span>Microsoft 365 Copilot access to Power BI data</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S05-A23-copilot-admin-setting.png"><source src="media/S05-A23-copilot-admin-setting.mp4" type="video/mp4"></video></div>
+                <p class="claim">The “Fabric data in Microsoft Copilot” setting in the Microsoft 365 admin center, <strong>on by default for everyone</strong>.</p>
+            </div>
+            <div class="feature feature-half">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span>The AI setting on a semantic model</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S05-A12-semantic-model-ai-setting.png"><source src="media/S05-A12-semantic-model-ai-setting.mp4" type="video/mp4"></video></div>
+                <p class="claim">Anyone with read-only access can use Copilot, Copilot Chat, Cowork, the data agent, and MCP tools. <strong>On by default.</strong></p>
+                <p class="limit"><i class="fas fa-triangle-exclamation"></i>The setting doesn't carry over to chained models, the ones built on top of this model.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-9" data-part="2">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div><div class="num">3</div>
+        <div class="kicker"><span>Part 2 · What shipped</span></div>
+        <h2 class="action">Barcelona opened <em>three doors</em> for data to leave Fabric and reach agents.</h2>
+        <div class="stage">
+            <div class="doors">
+                <div class="door"><div class="d">1</div><h4>Microsoft 365 Copilot Chat and Cowork</h4><p>A user asks in the chat, and Fabric IQ answers from a semantic model we control.</p><div class="pills"><span class="badge badge-ga">GA</span></div></div>
+                <div class="door"><div class="d">2</div><h4>MCP servers</h4><p>An MCP client queries Fabric IQ. Core MCP creates workspaces and items on the user's behalf.</p><div class="pills"><span class="badge badge-ga">GA</span><span class="badge badge-tbc">TBC</span></div></div>
+                <div class="door"><div class="d">3</div><h4>Copilot Studio and the OneLake Table Read API</h4><p>A data agent works as a tool for another agent. An app reads Delta and Iceberg tables over REST, and OneLake security filters the result.</p><div class="pills"><span class="badge badge-tbc">TBC</span><span class="badge badge-preview">PREVIEW</span></div></div>
+            </div>
+        </div>
+        <div class="strip"><span class="strip-text">Each door enforces the user's permissions. The question is who set those permissions.</span></div>
+    </div>
+</section>
+
+<section class="slide" id="slide-10" data-part="2">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div><div class="num">1</div>
+        <div class="kicker"><span>Part 2 · Door 1 of 3</span></div>
+        <h2 class="action">Door 1: Copilot Chat queries a semantic model through Fabric IQ <em>on the user's behalf</em>.</h2>
+        <div class="stage">
+            <div class="feature feature-main">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span>Fabric IQ in Copilot Chat and Cowork</span></div>
+                <div class="clip"><img src="media/keynote/kn-3-microsoft-iq.jpg" alt="FabCon keynote: Microsoft IQ"></div>
+            </div>
+            <div class="feature feature-side">
+                <p class="claim">We ask a business question in Copilot Chat, and the answer comes from a semantic model we control. <strong>No extra charge for AI tokens.</strong></p>
+                <p class="so"><b>In practice:</b> queries from the chat still use our capacity. There's just no separate bill for tokens.</p>
+                <p class="limit"><i class="fas fa-triangle-exclamation"></i>Limit: the answer is only as good as the descriptions and synonyms in the model. The “code experience” version goes to the Frontier program first.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-11" data-part="2">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div><div class="num">2</div>
+        <div class="kicker"><span>Part 2 · Door 2 of 3</span></div>
+        <h2 class="action">Door 2: Fabric IQ MCP only reads data. Core MCP <em>can change your tenant</em>: 15 of its 27 tools write changes.</h2>
+        <div class="stage">
+            <div class="feature feature-half">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span>Fabric IQ MCP</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S08-A2-fabric-iq-mcp.png"><source src="media/S08-A2-fabric-iq-mcp.mp4" type="video/mp4"></video></div>
+                <p class="claim"><strong>Reads.</strong> Six tools, all read-only: search, model schema, DAX query. The answer comes from the data and respects the user's permissions.</p>
+            </div>
+            <div class="feature feature-half">
+                <div class="clip-head"><span class="badge badge-tbc">TBC</span><span>Core MCP</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S08-A11-core-mcp-audit.png"><source src="media/S08-A11-core-mcp-audit.mp4" type="video/mp4"></video></div>
+                <p class="claim"><strong>Changes.</strong> 27 tools, and 15 of them write changes to workspaces, items, and permissions. Sign-in uses OAuth 2.0 with Entra ID, and <strong>Fabric logs supported operations in the audit log</strong>.</p>
+                <p class="quote">Learn: “Autonomous or misconfigured clients may perform destructive actions.” Safeguards against destructive operations aren't standardized in MCP, and a client can process data outside Fabric's compliance boundaries.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-12" data-part="2">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div><div class="num">3</div>
+        <div class="kicker"><span>Part 2 · Door 3 of 3</span></div>
+        <h2 class="action">Door 3: the data agent as a tool in Copilot Studio, and Delta tables read <em>over REST</em>.</h2>
+        <div class="stage">
+            <div class="feature feature-half">
+                <div class="clip-head"><span class="badge badge-tbc">TBC</span><span>Data agents in Copilot Studio</span></div>
+                <div class="clip"><img src="media/S09-A3-copilot-studio-card.png" alt="Not recorded: the demo tenant has no Copilot Studio license"></div>
+                <p class="claim">A Fabric data agent works as a tool for an agent in Copilot Studio and shows a visualization in its answer.</p>
+                <p class="limit"><i class="fas fa-triangle-exclamation"></i>Keynote: GA. The Learn walkthrough still says preview on October 21, 2026. Topics in data agents are in preview too.</p>
+            </div>
+            <div class="feature feature-half">
+                <div class="clip-head"><span class="badge badge-preview">PREVIEW</span><span>OneLake Table Read API</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S09-A17-table-read-api.png"><source src="media/S09-A17-table-read-api.mp4" type="video/mp4"></video></div>
+                <p class="claim">An app reads a Delta or Iceberg table over REST, and <strong>OneLake security filters rows and columns on every request</strong>.</p>
+                <p class="so"><b>In practice:</b> any app that sends an HTTP request with an Entra ID token can read the table. No Spark cluster, no SQL endpoint, no copy of the data. OneLake security permissions are the only guard.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-13" data-part="2">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Part 2 · What shipped</span></div>
+        <h2 class="action">Osmos plans the task, runs it on SparkCore, and checks the result. <em>OneLake permissions</em> remain the boundary.</h2>
+        <div class="stage">
+            <div class="feature feature-main">
+                <div class="clip-head"><span class="badge badge-preview">PREVIEW</span><span>Project Osmos</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S10-A5-osmos.png"><source src="media/S10-A5-osmos.mp4" type="video/mp4"></video></div>
+            </div>
+            <div class="feature feature-side">
+                <p class="claim">The agent plans, runs, and validates a data engineering task in Fabric on SparkCore. We start it from GitHub Copilot CLI, Claude Code, or Codex. <strong>Tasks persist, so we can come back to them.</strong></p>
+                <p class="limit"><i class="fas fa-triangle-exclamation"></i>Guardrails: a permission boundary, a write pattern, rerun rules, schema evolution. Fabric and OneLake permissions decide what the agent can do.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-14" data-part="2">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Part 2 · What shipped</span></div>
+        <h2 class="action">The operations agent <em>only reads</em> data from Monitor hub. Database agents aren't here yet.</h2>
+        <div class="stage">
+            <div class="feature feature-half">
+                <div class="clip-head"><span class="badge badge-preview">PREVIEW</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S11-A6-operations-agent.png"><source src="media/S11-A6-operations-agent.mp4" type="video/mp4"></video></div>
+                <p class="claim">The agent works out why a pipeline run failed, straight from Monitor hub.</p>
+                <p class="limit"><i class="fas fa-triangle-exclamation"></i>Read-only, on behalf of the signed-in user. Needs the Contributor role and workspace monitoring turned on.</p>
+            </div>
+            <div class="feature feature-half">
+                <div class="clip-head"><span class="badge badge-roadmapa">ROADMAP</span><span>Database agents</span></div>
+                <div class="clip"><img src="media/keynote/kn-4-database-hub.jpg" alt="FabCon keynote: Database Hub in Fabric"></div>
+                <p class="claim">For SQL and PostgreSQL, in Database Hub and in VS Code. Announced at the keynote, not available yet.</p>
+                <p class="limit"><i class="fas fa-triangle-exclamation"></i>Database Hub itself is in preview too.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-15" data-part="2">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Part 2 · What shipped</span></div>
+        <h2 class="action">The new ontology in Fabric IQ: entities from the semantic model, rules in natural language, <em>export to a knowledge graph</em>.</h2>
+        <div class="stage">
+            <div class="feature feature-main">
+                <div class="clip-head"><span class="badge badge-preview">PREVIEW</span><span>Ontology in Fabric IQ</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S12-A8-ontology.png"><source src="media/S12-A8-ontology.mp4" type="video/mp4"></video></div>
+            </div>
+            <div class="feature feature-side">
+                <p class="claim">We build the ontology from a semantic model, data in OneLake, and documents. <strong>We write rules in natural language.</strong> DAX measures come in as metrics. The ontology agent acts on our behalf and respects OneLake security, RLS, OLS, and CLS.</p>
+                <p class="so"><b>In practice:</b> we export to RDF and Turtle, the W3C standards for knowledge graphs, and we can import from OWL. Another graph tool can open an ontology from Fabric.</p>
+                <p class="limit"><i class="fas fa-triangle-exclamation"></i>The previous ontology version goes away on January 31, 2027, and the new one replaces it. An independent review flagged entities without an identifying key and no automatic health check for the ontology.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-16" data-part="2">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Part 2 · What shipped</span></div>
+        <h2 class="action">Power BI: agentic apps <em>coming to preview soon</em>, Copilot for RTI already in preview.</h2>
+        <div class="stage">
+            <div class="feature feature-half">
+                <div class="clip-head"><span class="badge badge-preview">PREVIEW</span><span>Agentic apps in Power BI Desktop</span></div>
+                <div class="clip clip-meme"><img src="media/S13-A4-agentic-apps-meme-en.jpg" alt="Meme: One does not simply run Power BI Desktop on a Mac"></div>
+                <p class="claim">We describe the app, and Power BI Desktop generates it, previews it, and publishes it. <strong>Included with Pro and PPU licenses</strong>, up to 1 GB per app, with write-back.</p>
+            </div>
+            <div class="feature feature-half">
+                <div class="clip-head"><span class="badge badge-preview">PREVIEW</span><span>Copilot for Real-Time Intelligence</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S13-RTI-copilot-dashboard.png"><source src="media/S13-RTI-copilot-dashboard.mp4" type="video/mp4"></video></div>
+                <p class="claim">A Real-Time Dashboard from one sentence, and we manage the eventhouse in natural language.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-17" data-part="2">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Part 2 · What shipped</span></div>
+        <h2 class="action">OneLake security: we define roles, RLS, and CLS once, and they <em>also apply through shortcuts</em>.</h2>
+        <div class="stage">
+            <div class="feature feature-third">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span>OneLake security</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S14-A16-onelake-security.png"><source src="media/S14-A16-onelake-security.mp4" type="video/mp4"></video></div>
+                <p class="claim">Roles, RLS, and CLS in one place, <strong>also through shortcuts</strong>. Every lakehouse gets a DefaultReader role. GA announced for the coming weeks, with no specific date.</p>
+            </div>
+            <div class="feature feature-third">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span class="badge-scope">shortcuts</span><span class="badge badge-preview">PREVIEW</span><span class="badge-scope">data agents</span><span>Outbound access protection</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S14-A18-outbound-protection.png"><source src="media/S14-A18-outbound-protection.mp4" type="video/mp4"></video></div>
+                <p class="claim">The workspace won't let data out, either through an outbound shortcut or through a data agent.</p>
+            </div>
+            <div class="feature feature-third feature-text">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span>Purview DLP: restrict access</span></div>
+                <p class="claim">Blocks access for everyone, or just for guests, when it finds sensitive data in a Fabric item.</p>
+                <div class="card"><strong>FabCon keynote, September 29, 2026:</strong> GA.</div>
+                <div class="card card-limit"><strong>Learn, October 7, 2026:</strong> access restriction still in preview.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-18" data-part="2">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Part 2 · What shipped</span></div>
+        <h2 class="action">Policies (allow only), catalog Govern, and observability: <em>three admin screens</em>.</h2>
+        <div class="stage">
+            <div class="feature feature-third">
+                <div class="clip-head"><span class="badge badge-preview">PREVIEW</span><span>Policies in Fabric</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S15-A13-policies.png"><source src="media/S15-A13-policies.mp4" type="video/mp4"></video></div>
+                <p class="claim">Scope: tenant or capacity. <strong>It's an allow list only</strong>: the only effect is Allow, and there's no Deny. Conditions: workspace, groups, sensitivity labels, recipient domain, item type.</p>
+            </div>
+            <div class="feature feature-third">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span>OneLake catalog Govern</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S15-A19-catalog-govern.png"><source src="media/S15-A19-catalog-govern.mp4" type="video/mp4"></video></div>
+                <p class="claim">One screen for the admin: label coverage, DLP results, tenant settings, recommended actions.</p>
+                <p class="limit"><i class="fas fa-triangle-exclamation"></i>The data refreshes once a day. The view doesn't cover tables inside items.</p>
+            </div>
+            <div class="feature feature-third">
+                <div class="clip-head"><span class="badge badge-preview">PREVIEW</span><span>Observability</span></div>
+                <div class="clip"><img src="media/S15-A22-monitor-jobs.jpg" alt="The new Monitor hub in Fabric: the Job runs view with run history"></div>
+                <p class="claim">The new Monitor hub: run history and success rate for every job. Plus workspace monitoring in an eventhouse and Activator alerts.</p>
+            </div>
+        </div>
+        <div class="strip"><span class="strip-text">Is our tenant ready for an agent that <strong>reads data on our behalf</strong>?</span></div>
+    </div>
+</section>
+
+<section class="slide divider" id="slide-19" data-part="3">
+    <div class="slide-content divider-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="divider-rail"></div>
+        <div class="divider-num">03</div>
+        <div class="divider-eyebrow"><i class="fas fa-sailboat"></i> Part 3</div>
+        <h2 class="divider-title">What's still missing, and where to start</h2>
+    </div>
+</section>
+
+<section class="slide" id="slide-20" data-part="3">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div><div class="num">6</div>
+        <div class="kicker"><span>Part 3 · What's missing and where to start</span></div>
+        <h2 class="action">Five announcements with no date and one hard date: <em>the previous ontology goes away on January 31, 2027</em>.</h2>
+        <div class="stage stage-col">
+        <table class="road-table">
+            <thead><tr><th>What</th><th>Status</th></tr></thead>
+            <tbody>
+                <tr><td><span class="badge badge-roadmapa">ROADMAP</span><span class="road-what">On-demand billing and F0 capacity</span></td><td class="road-status">Soon, no pricing yet</td></tr>
+                <tr><td><span class="badge badge-roadmapa">ROADMAP</span><span class="road-what">Database agents for SQL and PostgreSQL</span></td><td class="road-status">Soon</td></tr>
+                <tr><td><span class="badge badge-roadmapa">ROADMAP</span><span class="road-what">Native support for ontologies and semantic models in IQ sharing</span></td><td class="road-status">On the roadmap</td></tr>
+                <tr><td><span class="badge badge-roadmapa">ROADMAP</span><span class="road-what">Apache Ossie, a vendor-neutral ontology standard, together with Snowflake</span></td><td class="road-status">Announced</td></tr>
+                <tr><td><span class="badge badge-roadmapa">ROADMAP</span><span class="road-what">GA date for OneLake security</span></td><td class="road-status">Not given</td></tr>
+                <tr><td><span class="badge badge-roadmapa">ROADMAP</span><span class="road-what">Previous ontology version</span></td><td class="road-status">Retired January 31, 2027</td></tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-21" data-part="3">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Part 3 · What's missing and where to start</span></div>
+        <h2 class="action">What to turn on, what to pilot, what to put off. <em>The label decides</em>, not an opinion.</h2>
+        <div class="stage">
+            <div class="tri-grid">
+            <div class="tri-col go">
+                <div class="tri-head"><i class="fas fa-toggle-on"></i>Turn on</div>
+                <ul class="tri-list">
+                    <li><span class="badge badge-ga">GA</span><span>Fabric IQ in Microsoft 365 Copilot Chat</span></li>
+                    <li><span class="badge badge-ga">GA</span><span>OneLake catalog Govern</span></li>
+                    <li><span class="badge badge-ga">GA</span><span>OneLake security, once it's GA</span></li>
+                </ul>
+            </div>
+            <div class="tri-col pilot">
+                <div class="tri-head"><i class="fas fa-flask"></i>Pilot first</div>
+                <ul class="tri-list">
+                    <li><span class="badge badge-preview">PREVIEW</span><span>Ontology on one model</span></li>
+                    <li><span class="badge badge-preview">PREVIEW</span><span>Operations agent in Monitor hub</span></li>
+                    <li><span class="badge badge-preview">PREVIEW</span><span>Policies on one capacity</span></li>
+                    <li><span class="badge badge-ga">GA</span><span>Fabric IQ MCP on one workspace</span></li>
+                </ul>
+            </div>
+            <div class="tri-col wait">
+                <div class="tri-head"><i class="fas fa-hourglass-half"></i>Put off for now</div>
+                <ul class="tri-list">
+                    <li><span class="badge badge-preview">PREVIEW</span><span>Osmos in production</span></li>
+                    <li><span class="badge badge-tbc">TBC</span><span>Core MCP for autonomous clients</span></li>
+                    <li><span class="badge badge-roadmapa">ROADMAP</span><span>Database agents</span></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="strip"><span class="strip-text">A pilot covers one workspace, one model, or one capacity, so we can switch it off in one move.</span></div>
+    </div>
+</section>
+
+<section class="slide" id="slide-22" data-part="3">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div><div class="num">4</div>
+        <div class="kicker"><span>Part 3 · What's missing and where to start</span></div>
+        <h2 class="action">Four tenant settings to check, <em>each with a QR code to Learn</em>.</h2>
+        <ul class="check-list">
+            <li class="check-item"><div class="check-box">1</div><p class="check-text">Microsoft 365 admin center, Copilot settings, “Fabric data in Microsoft Copilot”. Let's check who has access.</p><div class="check-links check-qr-wrap"><img class="check-qr" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27164%27%20height%3D%27164%27%20class%3D%27segno%27%3E%3Cg%20transform%3D%27scale%284%29%27%3E%3Cpath%20fill%3D%27%23fff%27%20d%3D%27M0%200h41v41h-41z%27%2F%3E%3Cpath%20class%3D%27qrline%27%20stroke%3D%27%2307101e%27%20d%3D%27M2%202.5h7m2%200h1m1%200h1m5%200h2m2%200h2m7%200h7m-37%201h1m5%200h1m1%200h1m5%200h5m2%200h1m6%200h1m1%200h1m5%200h1m-37%201h1m1%200h3m1%200h1m1%200h1m1%200h2m9%200h4m1%200h3m1%200h1m1%200h3m1%200h1m-37%201h1m1%200h3m1%200h1m1%200h1m2%200h1m3%200h3m1%200h1m1%200h1m2%200h2m1%200h2m1%200h1m1%200h3m1%200h1m-37%201h1m1%200h3m1%200h1m3%200h1m1%200h1m5%200h3m2%200h1m4%200h1m1%200h1m1%200h3m1%200h1m-37%201h1m5%200h1m3%200h2m2%200h1m1%200h1m1%200h1m1%200h3m1%200h1m3%200h1m1%200h1m5%200h1m-37%201h7m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-29%201h4m3%200h2m2%200h2m1%200h2m4%200h1m-29%201h1m5%200h1m1%200h1m1%200h1m1%200h1m1%200h2m1%200h1m1%200h1m2%200h5m2%200h2m2%200h3m-34%201h3m3%200h1m2%200h4m2%200h1m1%200h1m1%200h1m1%200h1m2%200h3m2%200h2m1%200h2m-36%201h3m1%200h3m5%200h1m4%200h1m2%200h1m1%200h1m2%200h1m1%200h1m1%200h1m1%200h3m1%200h2m-37%201h1m2%200h3m1%200h4m2%200h1m1%200h2m2%200h1m2%200h1m3%200h1m1%200h1m1%200h1m2%200h1m2%200h1m-36%201h3m2%200h2m3%200h1m2%200h1m1%200h1m2%200h2m3%200h1m2%200h2m1%200h2m1%200h1m2%200h1m-36%201h1m1%200h1m1%200h1m6%200h2m1%200h1m2%200h3m2%200h6m2%200h1m1%200h1m1%200h1m-36%201h4m2%200h2m1%200h1m1%200h3m1%200h2m4%200h1m2%200h4m1%200h1m1%200h3m1%200h2m-37%201h4m1%200h1m3%200h3m6%200h3m1%200h1m4%200h1m1%200h1m1%200h1m1%200h3m-36%201h2m1%200h5m1%200h3m1%200h1m1%200h2m1%200h1m3%200h1m1%200h3m1%200h3m1%200h1m1%200h2m-36%201h1m4%200h1m1%200h2m1%200h2m1%200h1m4%200h4m1%200h2m1%200h4m1%200h1m2%200h2m-36%201h1m1%200h6m3%200h5m3%200h1m1%200h1m1%200h1m2%200h2m2%200h1m3%200h1m1%200h1m-35%201h4m3%200h1m4%200h1m3%200h1m1%200h1m1%200h1m1%200h1m2%200h7m2%200h1m-31%201h2m3%200h7m1%200h2m2%200h1m1%200h2m2%200h2m1%200h3m-34%201h5m1%200h1m1%200h1m1%200h6m2%200h1m1%200h3m2%200h3m3%200h1m1%200h1m-35%201h2m4%200h1m1%200h1m2%200h5m2%200h1m1%200h2m2%200h4m2%200h4m1%200h2m-37%201h2m3%200h1m7%200h1m1%200h2m1%200h2m2%200h2m2%200h3m1%200h4m1%200h1m-36%201h1m5%200h2m2%200h1m2%200h1m1%200h6m2%200h2m3%200h1m1%200h2m3%200h2m-37%201h1m1%200h4m1%200h3m6%200h1m1%200h2m1%200h1m1%200h1m1%200h1m1%200h2m4%200h2m-35%201h1m5%200h2m1%200h1m1%200h2m9%200h1m1%200h4m2%200h1m2%200h1m1%200h2m-37%201h1m1%200h3m2%200h2m1%200h1m2%200h1m1%200h1m2%200h1m4%200h2m4%200h6m-35%201h1m1%200h2m1%200h2m1%200h3m2%200h2m1%200h3m3%200h1m1%200h3m1%200h8m-28%201h1m1%200h2m3%200h1m1%200h5m1%200h1m2%200h1m1%200h1m3%200h1m-33%201h7m2%200h3m2%200h2m3%200h1m1%200h1m1%200h1m1%200h1m2%200h1m1%200h1m1%200h1m3%200h1m-37%201h1m5%200h1m2%200h2m2%200h1m1%200h1m1%200h2m4%200h1m2%200h3m3%200h1m2%200h1m-36%201h1m1%200h3m1%200h1m3%200h2m1%200h4m2%200h2m1%200h11m1%200h2m-36%201h1m1%200h3m1%200h1m3%200h2m4%200h4m1%200h3m5%200h2m2%200h1m2%200h1m-37%201h1m1%200h3m1%200h1m2%200h3m3%200h2m3%200h3m1%200h2m1%200h1m1%200h1m4%200h3m-37%201h1m5%200h1m6%200h2m4%200h2m1%200h3m1%200h1m1%200h1m3%200h2m2%200h1m-37%201h7m1%200h1m1%200h3m1%200h2m2%200h1m1%200h1m2%200h2m3%200h1m1%200h2m4%200h1%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="QR code: https://learn.microsoft.com/microsoft-365/copilot/copilot-powerbi-copilot-chat"><a class="check-link" href="https://learn.microsoft.com/microsoft-365/copilot/copilot-powerbi-copilot-chat" target="_blank" rel="noopener"><i class="fas fa-book-open"></i><span>learn.microsoft.com/microsoft-365/copilot/copilot-powerbi-copilot-chat</a></div></li>
+            <li class="check-item"><div class="check-box">2</div><p class="check-text">Let's check the AI setting on semantic models with HR and finance data. It doesn't carry over to chained models.</p><div class="check-links check-qr-wrap"><img class="check-qr" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27164%27%20height%3D%27164%27%20class%3D%27segno%27%3E%3Cg%20transform%3D%27scale%284%29%27%3E%3Cpath%20fill%3D%27%23fff%27%20d%3D%27M0%200h41v41h-41z%27%2F%3E%3Cpath%20class%3D%27qrline%27%20stroke%3D%27%2307101e%27%20d%3D%27M2%202.5h7m2%200h4m4%200h2m1%200h1m1%200h2m1%200h1m1%200h1m2%200h7m-37%201h1m5%200h1m8%200h1m1%200h2m3%200h3m2%200h1m2%200h1m5%200h1m-37%201h1m1%200h3m1%200h1m3%200h1m1%200h2m1%200h1m1%200h1m5%200h2m1%200h2m2%200h1m1%200h3m1%200h1m-37%201h1m1%200h3m1%200h1m2%200h2m1%200h1m3%200h1m1%200h2m2%200h1m3%200h1m3%200h1m1%200h3m1%200h1m-37%201h1m1%200h3m1%200h1m2%200h1m1%200h2m1%200h5m1%200h1m2%200h1m1%200h4m1%200h1m1%200h3m1%200h1m-37%201h1m5%200h1m1%200h1m1%200h2m2%200h1m2%200h4m4%200h1m1%200h2m1%200h1m5%200h1m-37%201h7m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-28%201h2m1%200h1m1%200h3m2%200h1m1%200h1m2%200h1m2%200h1m-28%201h1m2%200h1m1%200h2m1%200h2m3%200h1m1%200h1m1%200h1m3%200h2m1%200h2m1%200h3m1%200h1m-32%201h1m1%200h1m1%200h2m1%200h2m1%200h1m1%200h4m1%200h1m1%200h1m4%200h2m2%200h4m1%200h1m2%200h1m-37%201h1m3%200h1m1%200h2m3%200h1m1%200h1m2%200h4m1%200h2m1%200h1m1%200h1m2%200h1m4%200h3m-37%201h3m1%200h2m2%200h2m3%200h1m1%200h1m4%200h3m1%200h2m1%200h2m2%200h2m-33%201h2m3%200h2m1%200h2m7%200h1m3%200h1m2%200h2m1%200h4m4%200h2m-37%201h1m1%200h1m1%200h1m4%200h3m5%200h1m1%200h2m1%200h1m2%200h2m2%200h3m2%200h1m1%200h1m-37%201h1m3%200h1m1%200h2m2%200h1m3%200h1m2%200h2m1%200h1m2%200h2m1%200h1m1%200h1m2%200h2m1%200h1m1%200h1m-35%201h2m1%200h1m4%200h3m2%200h1m1%200h10m1%200h1m1%200h1m1%200h1m-33%201h3m2%200h2m1%200h1m1%200h1m3%200h1m3%200h2m1%200h2m4%200h1m1%200h2m2%200h3m-36%201h1m1%200h4m2%200h5m2%200h4m4%200h3m2%200h1m1%200h1m1%200h1m2%200h2m-37%201h2m2%200h1m1%200h1m1%200h1m2%200h1m3%200h2m1%200h1m1%200h1m3%200h3m2%200h2m1%200h5m-35%201h3m3%200h1m2%200h3m3%200h2m1%200h2m2%200h1m2%200h2m2%200h1m2%200h2m-36%201h1m1%200h1m1%200h4m2%200h3m1%200h3m1%200h2m1%200h2m2%200h4m1%200h1m1%200h2m1%200h1m-33%201h3m1%200h8m1%200h1m3%200h1m3%200h2m3%200h3m1%200h1m1%200h2m-36%201h2m3%200h1m2%200h2m1%200h1m1%200h1m1%200h2m1%200h1m2%200h1m1%200h1m1%200h1m3%200h1m5%200h1m-36%201h2m1%200h1m4%200h1m2%200h6m3%200h5m2%200h3m4%200h1m-36%201h5m1%200h1m3%200h3m1%200h1m5%200h2m2%200h2m1%200h5m1%200h1m1%200h2m-36%201h5m1%200h4m1%200h1m1%200h3m2%200h2m1%200h1m1%200h2m3%200h3m1%200h4m-37%201h1m1%200h1m3%200h1m1%200h3m2%200h1m6%200h2m1%200h1m1%200h2m1%200h3m1%200h1m1%200h1m1%200h1m-36%201h4m5%200h2m3%200h1m1%200h7m1%200h3m3%200h1m4%200h1m-37%201h2m1%200h1m2%200h1m1%200h2m1%200h4m2%200h1m1%200h1m1%200h2m1%200h1m3%200h5m1%200h1m-27%201h1m1%200h1m1%200h1m3%200h1m5%200h4m1%200h2m3%200h2m2%200h1m-37%201h7m3%200h1m3%200h1m1%200h1m1%200h1m2%200h1m5%200h2m1%200h1m1%200h2m1%200h2m-37%201h1m5%200h1m1%200h1m1%200h5m1%200h6m2%200h1m1%200h1m1%200h1m3%200h4m-36%201h1m1%200h3m1%200h1m3%200h2m1%200h2m1%200h4m1%200h1m2%200h3m1%200h6m2%200h1m-37%201h1m1%200h3m1%200h1m1%200h3m1%200h1m2%200h4m1%200h2m2%200h2m1%200h2m2%200h2m1%200h2m-36%201h1m1%200h3m1%200h1m3%200h1m1%200h4m1%200h4m5%200h1m2%200h1m1%200h6m-37%201h1m5%200h1m2%200h1m4%200h1m1%200h1m1%200h2m1%200h1m2%200h2m2%200h4m-32%201h7m1%200h1m2%200h3m1%200h1m1%200h1m2%200h2m1%200h3m1%200h3m3%200h1m1%200h2%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="QR code: https://learn.microsoft.com/power-bi/create-reports/copilot-semantic-models"><a class="check-link" href="https://learn.microsoft.com/power-bi/create-reports/copilot-semantic-models" target="_blank" rel="noopener"><i class="fas fa-book-open"></i><span>learn.microsoft.com/power-bi/create-reports/copilot-semantic-models</a></div></li>
+            <li class="check-item"><div class="check-box">3</div><p class="check-text">Let's check the tenant settings that let AI process data outside the capacity's region and geography.</p><div class="check-links check-qr-wrap"><img class="check-qr" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27180%27%20height%3D%27180%27%20class%3D%27segno%27%3E%3Cg%20transform%3D%27scale%284%29%27%3E%3Cpath%20fill%3D%27%23fff%27%20d%3D%27M0%200h45v45h-45z%27%2F%3E%3Cpath%20class%3D%27qrline%27%20stroke%3D%27%2307101e%27%20d%3D%27M4%204.5h7m1%200h1m4%200h1m5%200h2m2%200h1m3%200h2m1%200h7m-37%201h1m5%200h1m2%200h1m4%200h1m2%200h3m1%200h1m2%200h3m3%200h1m5%200h1m-37%201h1m1%200h3m1%200h1m4%200h1m2%200h1m2%200h2m2%200h1m1%200h2m1%200h1m1%200h1m1%200h1m1%200h3m1%200h1m-37%201h1m1%200h3m1%200h1m1%200h2m1%200h1m1%200h1m1%200h1m9%200h4m1%200h1m1%200h3m1%200h1m-37%201h1m1%200h3m1%200h1m1%200h1m1%200h1m1%200h1m3%200h3m2%200h1m1%200h1m1%200h4m1%200h1m1%200h3m1%200h1m-37%201h1m5%200h1m1%200h1m2%200h2m3%200h2m1%200h1m1%200h2m1%200h2m2%200h1m1%200h1m5%200h1m-37%201h7m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-29%201h7m1%200h1m4%200h1m2%200h1m2%200h1m-28%201h1m3%200h1m1%200h3m2%200h2m1%200h3m3%200h5m2%200h7m2%200h1m-35%201h2m3%200h1m1%200h4m1%200h1m2%200h3m1%200h3m1%200h4m3%200h2m1%200h1m-33%201h1m1%200h5m1%200h1m1%200h1m1%200h1m2%200h2m3%200h3m1%200h1m2%200h1m2%200h1m-33%201h5m3%200h1m5%200h7m1%200h1m2%200h1m2%200h1m1%200h1m2%200h2m-36%201h2m1%200h4m2%200h2m1%200h1m1%200h1m1%200h2m2%200h5m2%200h1m1%200h3m2%200h3m-37%201h1m1%200h1m5%200h1m1%200h7m1%200h1m4%200h3m1%200h2m3%200h2m1%200h1m-35%201h1m2%200h5m1%200h3m2%200h1m1%200h1m3%200h1m1%200h1m3%200h2m1%200h5m-34%201h5m2%200h1m2%200h3m3%200h3m1%200h4m1%200h1m4%200h2m1%200h3m-33%201h1m1%200h1m1%200h1m1%200h2m2%200h2m2%200h2m4%200h1m2%200h1m1%200h3m1%200h2m1%200h1m-36%201h1m1%200h1m1%200h1m1%200h1m1%200h6m1%200h1m2%200h3m1%200h1m1%200h4m3%200h1m1%200h2m-36%201h2m2%200h8m1%200h2m1%200h2m2%200h2m1%200h1m1%200h1m1%200h2m2%200h1m2%200h1m-34%201h1m1%200h2m2%200h1m1%200h1m1%200h2m1%200h1m2%200h2m2%200h1m1%200h1m3%200h2m5%200h2m-35%201h1m2%200h6m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m7%200h3m2%200h1m-31%201h2m2%200h6m1%200h1m1%200h2m4%200h1m2%200h2m3%200h2m2%200h1m-35%201h1m2%200h1m1%200h2m3%200h2m1%200h3m1%200h1m2%200h3m2%200h9m-35%201h2m3%200h1m1%200h1m2%200h1m8%200h1m1%200h2m1%200h1m6%200h2m1%200h1m-30%201h4m6%200h2m2%200h2m5%200h6m1%200h4m-37%201h2m3%200h1m2%200h1m1%200h2m1%200h2m3%200h2m1%200h1m1%200h1m2%200h3m3%200h1m-30%201h1m1%200h2m1%200h3m1%200h4m1%200h3m3%200h5m1%200h1m1%200h1m-30%201h1m2%200h1m2%200h2m2%200h1m1%200h4m1%200h3m2%200h1m1%200h2m3%200h2m1%200h1m-35%201h2m4%200h2m2%200h1m2%200h2m2%200h1m2%200h5m2%200h6m1%200h3m-29%201h1m2%200h3m1%200h2m1%200h1m2%200h1m1%200h1m4%200h1m3%200h1m-33%201h7m1%200h2m2%200h2m1%200h1m1%200h1m2%200h1m2%200h2m1%200h1m1%200h1m1%200h1m1%200h1m-33%201h1m5%200h1m5%200h2m1%200h4m3%200h1m1%200h1m1%200h1m1%200h1m3%200h3m1%200h1m-37%201h1m1%200h3m1%200h1m1%200h1m3%200h1m2%200h1m2%200h2m2%200h3m3%200h7m1%200h1m-37%201h1m1%200h3m1%200h1m2%200h2m3%200h1m1%200h2m1%200h2m2%200h1m1%200h2m1%200h4m1%200h1m2%200h1m-37%201h1m1%200h3m1%200h1m4%200h2m1%200h1m1%200h3m1%200h1m2%200h3m1%200h2m1%200h1m3%200h1m-35%201h1m5%200h1m5%200h2m3%200h2m2%200h2m3%200h2m2%200h1m1%200h4m-36%201h7m1%200h1m2%200h2m1%200h2m1%200h1m1%200h4m1%200h1m6%200h1m2%200h3%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="QR code: https://learn.microsoft.com/fabric/admin/service-admin-portal-copilot"><a class="check-link" href="https://learn.microsoft.com/fabric/admin/service-admin-portal-copilot" target="_blank" rel="noopener"><i class="fas fa-book-open"></i><span>learn.microsoft.com/fabric/admin/service-admin-portal-copilot</a></div></li>
+            <li class="check-item"><div class="check-box">4</div><p class="check-text">Let's turn on outbound access protection for workspaces with sensitive data.</p><div class="check-links check-qr-wrap"><img class="check-qr" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27180%27%20height%3D%27180%27%20class%3D%27segno%27%3E%3Cg%20transform%3D%27scale%284%29%27%3E%3Cpath%20fill%3D%27%23fff%27%20d%3D%27M0%200h45v45h-45z%27%2F%3E%3Cpath%20class%3D%27qrline%27%20stroke%3D%27%2307101e%27%20d%3D%27M2%202.5h7m1%200h1m1%200h1m2%200h1m1%200h1m2%200h3m2%200h1m2%200h1m1%200h1m1%200h2m2%200h7m-41%201h1m5%200h1m1%200h3m1%200h1m2%200h3m2%200h4m2%200h1m1%200h3m1%200h1m1%200h1m5%200h1m-41%201h1m1%200h3m1%200h1m2%200h1m3%200h2m1%200h1m1%200h6m1%200h2m3%200h3m1%200h1m1%200h3m1%200h1m-41%201h1m1%200h3m1%200h1m1%200h7m1%200h1m1%200h1m2%200h2m1%200h1m2%200h1m1%200h1m2%200h1m1%200h1m1%200h3m1%200h1m-41%201h1m1%200h3m1%200h1m3%200h1m1%200h1m5%200h2m1%200h1m2%200h2m1%200h2m2%200h1m2%200h1m1%200h3m1%200h1m-41%201h1m5%200h1m2%200h1m1%200h4m2%200h3m1%200h1m2%200h1m1%200h1m1%200h1m1%200h3m1%200h1m5%200h1m-41%201h7m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-33%201h1m4%200h1m1%200h1m1%200h1m2%200h1m1%200h1m1%200h1m1%200h2m1%200h1m1%200h1m-32%201h1m1%200h2m1%200h3m1%200h2m1%200h8m1%200h1m4%200h1m1%200h3m3%200h1m2%200h1m1%200h2m-40%201h1m1%200h2m6%200h1m2%200h1m3%200h2m2%200h2m1%200h1m4%200h7m1%200h3m-40%201h1m4%200h2m1%200h2m1%200h1m2%200h3m2%200h4m2%200h1m8%200h2m1%200h2m-39%201h3m1%200h1m2%200h6m1%200h2m1%200h3m2%200h1m1%200h3m2%200h1m1%200h3m4%200h2m-41%201h5m1%200h1m1%200h2m4%200h4m4%200h1m2%200h2m2%200h1m1%200h1m1%200h1m1%200h1m1%200h2m1%200h1m-40%201h1m3%200h1m1%200h4m1%200h3m1%200h1m4%200h3m4%200h1m2%200h1m2%200h1m2%200h1m2%200h1m-40%201h1m1%200h1m2%200h1m4%200h1m9%200h1m2%200h1m2%200h2m1%200h3m1%200h1m1%200h1m1%200h3m-40%201h1m5%200h1m2%200h3m3%200h1m2%200h4m1%200h1m1%200h1m1%200h1m2%200h2m1%200h1m1%200h2m-37%201h2m1%200h4m1%200h2m2%200h2m3%200h2m1%200h5m1%200h1m2%200h1m1%200h1m3%200h1m2%200h2m-41%201h1m3%200h1m2%200h2m1%200h2m3%200h3m2%200h1m2%200h2m1%200h2m1%200h1m2%200h2m1%200h1m2%200h1m-38%201h1m3%200h2m1%200h1m1%200h1m1%200h3m2%200h1m2%200h2m2%200h6m3%200h1m2%200h4m-40%201h1m2%200h1m1%200h1m1%200h3m1%200h2m1%200h1m4%200h2m1%200h2m1%200h3m1%200h1m1%200h1m2%200h2m1%200h3m-39%201h1m2%200h1m1%200h3m3%200h2m4%200h3m1%200h1m1%200h3m2%200h2m2%200h2m1%200h1m1%200h2m-39%201h4m3%200h1m1%200h2m1%200h1m1%200h2m1%200h6m1%200h1m2%200h1m2%200h1m1%200h5m1%200h2m-41%201h1m1%200h1m2%200h2m3%200h3m8%200h1m1%200h2m3%200h3m2%200h3m2%200h2m-39%201h1m1%200h2m3%200h1m2%200h3m1%200h2m1%200h1m4%200h4m3%200h1m2%200h1m1%200h1m3%200h1m-40%201h2m2%200h4m1%200h1m2%200h1m1%200h2m1%200h1m2%200h1m1%200h2m1%200h3m1%200h1m8%200h3m-38%201h1m3%200h6m2%200h1m1%200h1m1%200h1m4%200h1m1%200h4m1%200h4m2%200h2m1%200h1m-41%201h1m1%200h2m1%200h2m2%200h2m2%200h1m1%200h3m1%200h1m1%200h2m1%200h3m1%200h1m1%200h4m3%200h1m2%200h1m-40%201h3m4%200h2m2%200h3m4%200h3m1%200h2m6%200h2m2%200h3m1%200h2m-41%201h5m1%200h1m3%200h2m2%200h3m1%200h1m2%200h3m1%200h1m4%200h4m1%200h3m1%200h2m-40%201h3m1%200h1m2%200h4m1%200h1m3%200h1m1%200h1m2%200h1m1%200h3m1%200h1m3%200h1m2%200h1m-36%201h1m4%200h4m2%200h2m1%200h2m1%200h1m2%200h6m1%200h1m2%200h1m1%200h5m1%200h2m-37%201h2m3%200h2m3%200h1m1%200h4m1%200h1m3%200h1m4%200h2m1%200h1m1%200h2m1%200h3m-39%201h3m1%200h2m5%200h1m4%200h3m1%200h1m1%200h2m3%200h13m-33%201h4m3%200h2m1%200h3m2%200h1m4%200h1m1%200h1m1%200h1m3%200h2m1%200h2m-41%201h7m1%200h2m3%200h5m3%200h4m1%200h1m1%200h5m1%200h1m1%200h4m-40%201h1m5%200h1m1%200h3m1%200h2m2%200h1m1%200h5m1%200h5m3%200h1m3%200h1m2%200h1m-40%201h1m1%200h3m1%200h1m2%200h1m2%200h1m5%200h1m1%200h5m2%200h2m1%200h1m1%200h7m1%200h1m-41%201h1m1%200h3m1%200h1m1%200h1m3%200h1m1%200h1m3%200h2m1%200h1m3%200h1m1%200h3m1%200h2m3%200h1m1%200h2m-40%201h1m1%200h3m1%200h1m1%200h5m2%200h3m1%200h3m2%200h2m9%200h1m3%200h2m-41%201h1m5%200h1m2%200h1m2%200h1m1%200h2m2%200h2m1%200h2m1%200h1m1%200h1m5%200h3m1%200h2m1%200h1m-40%201h7m1%200h1m2%200h1m3%200h3m1%200h4m2%200h1m2%200h1m1%200h4m3%200h1m1%200h1%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="QR code: https://learn.microsoft.com/fabric/security/workspace-outbound-access-protection-data-agent"><a class="check-link" href="https://learn.microsoft.com/fabric/security/workspace-outbound-access-protection-data-agent" target="_blank" rel="noopener"><i class="fas fa-book-open"></i><span>learn.microsoft.com/fabric/security/workspace-outbound-access-protection-data-agent</a></div></li>
+        </ul>
+    </div>
+</section>
+
+<section class="slide" id="slide-23" data-part="3">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Part 3 · What's missing and where to start</span></div>
+        <h2 class="action">Engineer: test RLS under the data agent. CTO: <em>ask about the agent's identity</em>.</h2>
+        <div class="check-cols">
+            <div>
+                <div class="check-col-head"><i class="fas fa-code"></i>Engineer</div>
+                <ul class="check-list">
+                <li class="check-item"><div class="check-box">1</div><p class="check-text">Let's test RLS under the data agent on our own model. Learn says the agent respects RLS and CLS. But there's an unconfirmed report on Microsoft Q&amp;A that the agent returned unfiltered rows. Let's check for ourselves.</p><div class="check-links"><a class="check-link" href="https://learn.microsoft.com/fabric/data-science/concept-data-agent" target="_blank" rel="noopener"><i class="fas fa-book-open"></i><span>learn.microsoft.com/fabric/data-science/concept-data-agent</a><a class="check-link" href="https://learn.microsoft.com/en-us/answers/questions/5556598/" target="_blank" rel="noopener"><i class="fas fa-book-open"></i><span>learn.microsoft.com/answers/questions/5556598, the report</a></div></li>
+                <li class="check-item"><div class="check-box">2</div><p class="check-text">Let's tag preview items before someone puts them into production.</p></li>
+                </ul>
+            </div>
+            <div>
+                <div class="check-col-head"><i class="fas fa-user-tie"></i>CTO</div>
+                <ul class="check-list">
+                <li class="check-item"><div class="check-box">3</div><p class="check-text">The agent acts on the user's behalf, with least privilege, and read-only. It respects Purview DLP. The agent can't see more than the user.</p><div class="check-links"><a class="check-link" href="https://learn.microsoft.com/fabric/data-science/concept-data-agent" target="_blank" rel="noopener"><i class="fas fa-book-open"></i><span>learn.microsoft.com/fabric/data-science/concept-data-agent</a></div></li>
+                <li class="check-item"><div class="check-box">4</div><p class="check-text">Let's ask Microsoft whether the agent can run under its own Entra Agent ID instead of as the user. No answer yet.</p><div class="check-links"><a class="check-link" href="https://learn.microsoft.com/en-us/entra/agent-id/whats-new-agent-id" target="_blank" rel="noopener"><i class="fas fa-book-open"></i><span>learn.microsoft.com/entra/agent-id/whats-new-agent-id</a></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide statement-slide" id="slide-24" data-part="3">
+    <div class="slide-content statement"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <p class="statement-text">Fabric has become a platform for agents.<br><strong>Have our settings kept up?</strong></p>
+</section>
+
+<section class="slide" id="slide-25" data-part="0">
+    <div class="slide-content questions"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="q-mark"><i class="fas fa-comments"></i></div>
+        <h2 class="slide-title q-title">Questions</h2>
+        <div class="closing-contacts">
+            <div class="closing-contact">
+                <div class="closing-contact-icon"><i class="fab fa-linkedin-in"></i></div>
+                <div class="closing-contact-info">
+                    <div class="closing-contact-name">dr Estera Kot</div>
+                    <div class="closing-contact-email">linkedin.com/in/esterakot</div>
+                </div>
+            </div>
+            <a class="repo-card" href="https://github.com/ekote/fabcon-barcelona-2026-recap" target="_blank" rel="noopener"><img class="repo-qr" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27164%27%20height%3D%27164%27%20class%3D%27segno%27%3E%3Cg%20transform%3D%27scale%284%29%27%3E%3Cpath%20fill%3D%27%23fff%27%20d%3D%27M0%200h41v41h-41z%27%2F%3E%3Cpath%20class%3D%27qrline%27%20stroke%3D%27%2307101e%27%20d%3D%27M4%204.5h7m2%200h1m6%200h1m1%200h4m1%200h1m2%200h7m-33%201h1m5%200h1m2%200h1m2%200h1m2%200h2m1%200h1m1%200h1m5%200h1m5%200h1m-33%201h1m1%200h3m1%200h1m1%200h3m1%200h1m1%200h1m3%200h2m1%200h1m4%200h1m1%200h3m1%200h1m-33%201h1m1%200h3m1%200h1m1%200h2m2%200h1m2%200h1m2%200h2m6%200h1m1%200h3m1%200h1m-33%201h1m1%200h3m1%200h1m1%200h1m4%200h6m2%200h4m1%200h1m1%200h3m1%200h1m-33%201h1m5%200h1m1%200h1m3%200h3m2%200h1m6%200h1m1%200h1m5%200h1m-33%201h7m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-25%201h3m1%200h1m1%200h1m1%200h1m4%200h1m2%200h1m-25%201h1m1%200h5m2%200h2m2%200h2m2%200h1m8%200h5m-30%201h2m4%200h3m1%200h3m2%200h2m1%200h3m1%200h1m2%200h2m1%200h2m1%200h1m-30%201h1m1%200h3m1%200h2m1%200h4m1%200h1m2%200h1m1%200h1m1%200h3m1%200h1m1%200h2m-32%201h1m1%200h1m1%200h1m2%200h2m1%200h1m1%200h2m3%200h2m1%200h2m2%200h3m1%200h3m1%200h1m-33%201h2m3%200h2m2%200h3m2%200h3m3%200h1m2%200h1m1%200h1m1%200h3m-29%201h2m1%200h2m2%200h6m1%200h1m2%200h3m2%200h2m1%200h1m3%200h3m-30%201h1m2%200h3m2%200h2m1%200h3m3%200h1m1%200h1m1%200h4m1%200h3m-29%201h3m8%200h2m2%200h1m2%200h1m1%200h4m1%200h3m-26%201h5m2%200h2m1%200h1m1%200h1m4%200h1m1%200h2m1%200h3m2%200h1m-31%201h2m1%200h1m3%200h2m1%200h2m2%200h1m1%200h3m2%200h1m2%200h2m1%200h2m1%200h1m-32%201h1m2%200h1m1%200h2m1%200h3m3%200h2m1%200h1m1%200h3m1%200h5m1%200h2m-29%201h1m8%200h4m3%200h4m3%200h6m-32%201h3m1%200h4m2%200h4m1%200h1m2%200h2m2%200h1m2%200h1m1%200h3m1%200h2m-33%201h2m5%200h1m5%200h1m1%200h2m2%200h6m1%200h1m3%200h1m1%200h1m-33%201h1m2%200h1m2%200h1m1%200h1m1%200h2m1%200h2m5%200h1m4%200h1m5%200h1m-32%201h1m1%200h2m5%200h3m4%200h1m2%200h1m1%200h2m2%200h2m2%200h2m-31%201h1m2%200h1m1%200h2m1%200h1m1%200h2m1%200h2m2%200h2m3%200h7m2%200h1m-24%201h1m5%200h1m1%200h4m1%200h1m1%200h2m3%200h1m1%200h1m1%200h1m-33%201h7m2%200h1m2%200h1m2%200h1m1%200h1m2%200h1m2%200h2m1%200h1m1%200h1m1%200h1m-31%201h1m5%200h1m1%200h2m6%200h3m1%200h2m1%200h2m3%200h3m1%200h1m-33%201h1m1%200h3m1%200h1m1%200h1m2%200h6m2%200h1m2%200h1m1%200h6m1%200h2m-33%201h1m1%200h3m1%200h1m1%200h1m1%200h2m2%200h2m1%200h4m2%200h3m2%200h1m1%200h3m-33%201h1m1%200h3m1%200h1m1%200h2m1%200h1m3%200h3m2%200h1m1%200h1m3%200h2m1%200h1m-30%201h1m5%200h1m4%200h1m1%200h1m1%200h1m4%200h3m5%200h3m-31%201h7m1%200h3m1%200h1m1%200h2m1%200h1m4%200h1m1%200h2m1%200h1m3%200h1%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="QR code: https://github.com/ekote/fabcon-barcelona-2026-recap"><span class="repo-text"><span class="repo-head">Slides, PDF, and recordings</span><span class="repo-link">github.com/ekote/fabcon-barcelona-2026-recap</span></span></a>
+        </div>
+        <div class="hiring"><img class="hiring-qr" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27132%27%20height%3D%27132%27%20class%3D%27segno%27%3E%3Cg%20transform%3D%27scale%284%29%27%3E%3Cpath%20fill%3D%27%23fff%27%20d%3D%27M0%200h33v33h-33z%27%2F%3E%3Cpath%20class%3D%27qrline%27%20stroke%3D%27%2307101e%27%20d%3D%27M2%202.5h7m3%200h4m2%200h4m2%200h7m-29%201h1m5%200h1m4%200h5m2%200h1m1%200h1m1%200h1m5%200h1m-29%201h1m1%200h3m1%200h1m2%200h5m2%200h2m1%200h1m2%200h1m1%200h3m1%200h1m-29%201h1m1%200h3m1%200h1m6%200h3m2%200h2m2%200h1m1%200h3m1%200h1m-29%201h1m1%200h3m1%200h1m2%200h2m2%200h2m1%200h3m3%200h1m1%200h3m1%200h1m-29%201h1m5%200h1m1%200h3m1%200h3m3%200h3m1%200h1m5%200h1m-29%201h7m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m1%200h7m-19%201h1m1%200h1m1%200h1m2%200h4m-21%201h1m2%200h1m1%200h2m1%200h3m4%200h2m1%200h2m1%200h1m1%200h1m-24%201h4m1%200h1m3%200h2m3%200h2m5%200h2m2%200h1m2%200h1m-29%201h2m2%200h3m4%200h2m4%200h1m1%200h1m1%200h1m1%200h5m-28%201h3m1%200h2m1%200h1m1%200h1m1%200h1m2%200h2m2%200h1m1%200h2m1%200h1m2%200h2m-28%201h1m5%200h1m1%200h1m2%200h2m3%200h2m3%200h3m1%200h1m1%200h2m-29%201h1m1%200h4m1%200h3m5%200h3m1%200h2m-21%201h1m1%200h1m1%200h1m1%200h1m3%200h1m1%200h1m5%200h1m3%200h1m2%200h4m-28%201h1m3%200h1m1%200h1m3%200h1m1%200h2m1%200h3m3%200h1m1%200h2m1%200h1m-27%201h1m1%200h2m1%200h1m5%200h4m1%200h1m1%200h1m1%200h1m5%200h1m-27%201h5m3%200h2m10%200h3m1%200h1m2%200h1m-29%201h1m2%200h4m3%200h1m1%200h2m4%200h1m2%200h1m2%200h1m2%200h2m-26%201h1m3%200h2m2%200h1m1%200h1m2%200h3m5%200h1m2%200h2m-29%201h1m5%200h3m3%200h1m1%200h1m5%200h5m1%200h1m-19%201h3m1%200h2m2%200h5m3%200h1m1%200h3m-29%201h7m2%200h1m1%200h1m1%200h2m2%200h2m1%200h1m1%200h1m1%200h1m2%200h1m-28%201h1m5%200h1m1%200h2m1%200h3m6%200h1m3%200h3m-27%201h1m1%200h3m1%200h1m3%200h1m1%200h1m1%200h1m2%200h1m2%200h5m3%200h1m-29%201h1m1%200h3m1%200h1m1%200h1m1%200h1m1%200h1m1%200h1m2%200h1m1%200h1m2%200h6m-28%201h1m1%200h3m1%200h1m3%200h3m4%200h1m1%200h2m3%200h3m1%200h1m-29%201h1m5%200h1m3%200h1m4%200h6m1%200h1m1%200h1m2%200h1m-28%201h7m1%200h2m1%200h2m4%200h1m2%200h1m1%200h1m1%200h2m1%200h1%27%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="QR code: https://cloudsonmars.com/careers/"><div class="hiring-text"><div class="hiring-head"><img class="hiring-logo" src="assets/com-logo-white.svg" alt="Clouds on Mars"><span class="hiring-tag">is hiring</span></div><p class="hiring-areas">Projects: data platforms and lakehouses, data modeling and reporting, AI and automation. Microsoft Fabric, Azure, Databricks, Power BI.</p><p class="hiring-model"><strong>We don't do body leasing.</strong> We run projects, and staff augmentation happens very, very rarely.</p><p class="hiring-links"><a href="https://cloudsonmars.com/careers/" target="_blank" rel="noopener">cloudsonmars.com/careers</a><span aria-hidden="true">·</span><a href="mailto:estera.kot@cloudsonmars.com">estera.kot@cloudsonmars.com</a></p></div></div>
+        <div class="q-lockups"><img class="mvp" src="assets/logos/mvp.png" alt="Microsoft Most Valuable Professional"></div>
+    </div>
+</section>
+
+<section class="slide" id="slide-26" data-part="0">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Appendix · New features in action</span></div>
+        <h2 class="action">Searching the OneLake catalog from code: <em>one query, the whole tenant</em>.</h2>
+        <div class="stage">
+            <div class="feature feature-main">
+                <div class="clip-head"><span class="badge badge-preview">PREVIEW</span><span>OneLake catalog search API</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S16-A20-catalog-search.png"><source src="media/S16-A20-catalog-search.mp4" type="video/mp4"></video></div>
+            </div>
+            <div class="feature feature-side">
+                <p class="claim"><code>POST /v1/catalog/search</code> searches by name, description, and workspace name, with a type filter. It returns only what we have permission to see. <strong>The search_catalog tool in Core MCP runs the same search.</strong></p>
+                <p class="so"><b>In practice:</b> an agent first checks whether a model or table already exists, before it builds another copy.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-27" data-part="0">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Appendix · New features in action</span></div>
+        <h2 class="action">AI functions in Spark: <em>translation, sentiment, and classification</em> in one line per column.</h2>
+        <div class="stage">
+            <div class="feature feature-main">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span>AI functions in a PySpark notebook</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S16-ai-functions.png"><source src="media/S16-ai-functions.mp4" type="video/mp4"></video></div>
+            </div>
+            <div class="feature feature-side">
+                <p class="claim"><code>ai.translate</code>, <code>ai.analyze_sentiment</code>, and <code>ai.classify</code> on tester comments written in English, Arabic, and French. <strong>Built-in Fabric endpoint, no API key.</strong></p>
+                <p class="so"><b>In practice:</b> we process text where the data lives, with no separate service and no copying.</p>
+                <p class="limit"><i class="fas fa-triangle-exclamation"></i>On Runtime 2.0 you have to name the model explicitly for now. Learn documents this as a temporary workaround.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-28" data-part="0">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Appendix · New features in action</span></div>
+        <h2 class="action">Materialized lake views: a medallion architecture in SQL, <em>with quality rules in the view definition</em>.</h2>
+        <div class="stage">
+            <div class="feature feature-main">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span>Materialized lake views</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S16-mlv-medallion.png"><source src="media/S16-mlv-medallion.mp4" type="video/mp4"></video></div>
+            </div>
+            <div class="feature feature-side">
+                <p class="claim">We create the silver and gold layers with <code>CREATE MATERIALIZED LAKE VIEW</code>. Fabric builds the lineage and refreshes views in dependency order. <strong><code>CONSTRAINT … ON MISMATCH DROP</code> rejects bad rows.</strong></p>
+                <p class="so"><b>In practice:</b> three bad rows from the panel never reached the gold layer. The run report shows Dropped rows: 3.</p>
+                <p class="limit"><i class="fas fa-triangle-exclamation"></i>Views created from PySpark are in preview and only do full refreshes.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-29" data-part="0">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Appendix · New features in action</span></div>
+        <h2 class="action">The data agent: a question, SQL on the lakehouse, <em>a one-line answer and a table</em>.</h2>
+        <div class="stage">
+            <div class="feature feature-main">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span>Fabric data agent</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S16-data-agent.png"><source src="media/S16-data-agent.mp4" type="video/mp4"></video></div>
+            </div>
+            <div class="feature feature-side">
+                <p class="claim">An agent on lh_oud_rd with instructions in English. <strong>Both answers match the data:</strong> OB-104 Oud Saffron S-7, 68%, 14,353 QAR per kilogram.</p>
+                <p class="so"><b>In practice:</b> we test the agent with questions we already know the answer to.</p>
+                <p class="limit"><i class="fas fa-triangle-exclamation"></i>With the vaguer question “Which formula beats the reference most often?”, the agent counted winning trials and named the wrong formula. Each formula has only about one trial.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="slide" id="slide-30" data-part="0">
+    <div class="slide-content"><div class="rail"><span>01</span><span>02</span><span>03</span><i class="fas fa-sailboat"></i></div>
+        <div class="kicker"><span>Appendix · New features in action</span></div>
+        <h2 class="action">We see the same Delta tables through <em>the Unity Catalog API and the Iceberg REST Catalog</em>.</h2>
+        <div class="stage">
+            <div class="feature feature-main">
+                <div class="clip-head"><span class="badge badge-ga">GA</span><span>OneLake table APIs</span></div>
+                <div class="clip"><video class="demo" autoplay muted loop playsinline poster="media/S16-onelake-open-catalogs.png"><source src="media/S16-onelake-open-catalogs.mp4" type="video/mp4"></video></div>
+            </div>
+            <div class="feature feature-side">
+                <p class="claim">The <code>onelake.table.fabric.microsoft.com</code> endpoint: Delta through a Unity Catalog compatible API, Iceberg through the Iceberg REST Catalog. <strong>A Delta table from the lakehouse shows up as Iceberg format-version 2.</strong></p>
+                <p class="so"><b>In practice:</b> any engine that speaks Iceberg REST or Unity Catalog sees our tables with no copy and no export.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+<div class="lightbox-overlay" id="lightboxOverlay" onclick="closeLightbox()">
+    <button class="lightbox-close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+    <img id="lightboxImg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Enlarged screenshot">
+</div>
+
+<div class="grid-overlay" id="gridOverlay">
+    <div class="grid-overlay-header">
+        <div class="grid-overlay-title">All slides</div>
+        <button class="grid-overlay-close" onclick="closeGrid()"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="grid-thumbnails" id="gridThumbnails"></div>
+</div>
+
+<script>
+// Curated grid-overlay descriptions for this deck (read by nexus.js)
+window.SLIDE_META = {
+    'slide-1': { label: 'Title', title: "FabCon Barcelona 2026: what we had, what shipped, what's still missing" },
+    'slide-2': { label: 'Barcelona', title: 'Straight from the keynote: showreel and six photos' },
+    'slide-3': { label: 'Barcelona', title: 'One question for seven people at Microsoft' },
+    'slide-4': { label: 'Thesis', title: 'Fabric has become a platform for agents. Have our settings kept up?' },
+    'slide-5': { label: 'Part 1: what we had', title: 'Four questions for today' },
+    'slide-6': { label: 'Part 1: what we had', title: 'What we had: Fabric before Barcelona' },
+    'slide-7': { label: 'Part 1: what we had', title: 'The shift: Fabric data goes out to agents' },
+    'slide-8': { label: 'Part 1: what we had', title: 'Two settings Microsoft turned on for us' },
+    'slide-9': { label: 'Section', title: 'What shipped: GA and preview' },
+    'slide-10': { label: 'Part 2: what shipped', title: 'Door 1: Fabric IQ in Microsoft 365 Copilot Chat and Cowork' },
+    'slide-11': { label: 'Part 2: what shipped', title: 'Door 2: MCP servers for Fabric IQ and Fabric Core' },
+    'slide-12': { label: 'Part 2: what shipped', title: 'Door 3: data agents in Copilot Studio and the OneLake Table Read API' },
+    'slide-13': { label: 'Part 2: what shipped', title: 'A data engineering agent: Project Osmos' },
+    'slide-14': { label: 'Part 2: what shipped', title: 'Operations agents and database agents' },
+    'slide-15': { label: 'Part 2: what shipped', title: 'The new ontology in Fabric IQ' },
+    'slide-16': { label: 'Part 2: what shipped', title: 'Power BI: agentic apps and Copilot for Real-Time Intelligence' },
+    'slide-17': { label: 'Part 2: what shipped', title: 'OneLake security: one model for the whole lake' },
+    'slide-18': { label: 'Part 2: what shipped', title: 'Governance: policies, catalog Govern, observability' },
+    'slide-19': { label: 'Section', title: "What's still missing, and where to start" },
+    'slide-20': { label: "Part 3: what's missing", title: 'The roadmap, no spin' },
+    'slide-21': { label: "Part 3: what's missing", title: "Preview isn't production: turn on, pilot, put off" },
+    'slide-22': { label: "Part 3: what's missing", title: 'Admin checklist' },
+    'slide-23': { label: "Part 3: what's missing", title: 'Engineer and CTO checklist' },
+    'slide-24': { label: 'Thesis', title: 'Fabric has become a platform for agents. Have our settings kept up?' },
+    'slide-25': { label: 'Contact', title: 'Questions' },
+    'slide-26': { label: 'Appendix', title: 'OneLake catalog search API' },
+    'slide-27': { label: 'Appendix', title: 'AI functions in a PySpark notebook' },
+    'slide-28': { label: 'Appendix', title: 'Materialized lake views' },
+    'slide-29': { label: 'Appendix', title: 'Fabric data agent' },
+    'slide-30': { label: 'Appendix', title: 'OneLake table APIs' },
+};
+</script>
+<script>
+(function(){function f(){document.documentElement.style.setProperty("--deck-s",Math.min(innerWidth/1600,innerHeight/900).toFixed(4));}f();addEventListener("resize",f);})();
+</script>
+<script>
+// Video playback: play what is on the active slide, pause the rest. data-sound videos play with audio, resume where they stopped, restart only after the end; click toggles.
+(function(){
+  if(navigator.webdriver){document.querySelectorAll('video[autoplay]').forEach(function(v){v.removeAttribute('autoplay');v.pause();});return;} // PDF and screenshot runs show posters
+  function sync(){
+    document.querySelectorAll('section.slide').forEach(function(sl){
+      var on=sl.classList.contains('active');
+      sl.querySelectorAll('video').forEach(function(v){
+        var snd=v.hasAttribute('data-sound');
+        if(on){ if(snd&&(!v.dataset.started||v.ended)){v.currentTime=0;v.dataset.started='1';} if(snd)v.muted=false;
+                var p=v.play(); if(p&&p.catch)p.catch(function(){v.muted=true;v.play().catch(function(){});}); }
+        else { if(!v.paused)v.pause(); }
+      });
+    });
+  }
+  var mo=new MutationObserver(sync);
+  document.querySelectorAll('section.slide').forEach(function(sl){mo.observe(sl,{attributes:true,attributeFilter:['class']});});
+  document.addEventListener('click',function(e){var v=e.target.closest&&e.target.closest('video[data-sound]');if(!v||v.closest('.vbox'))return;e.stopPropagation();e.preventDefault();if(v.paused){v.muted=false;v.play();}else v.pause();},true);
+  document.addEventListener('DOMContentLoaded',sync); sync();
+})();
+// Enlarge button on every video and image: clips, reel, interviews, keynote photos, meme, screenshots.
+// The media opens in a full-window view inside the page, not in browser full screen, so the deck's own full screen (F) stays on.
+// Esc, the X button, or a clicker or arrow key closes the view and returns to the same slide, in the same full-screen state.
+// While the deck is in full screen, Chrome and Edge get Keyboard Lock on Esc: a short Esc reaches the page and closes only the view,
+// on a plain slide a short Esc still leaves full screen, holding Esc always leaves it. An enlarged video gets a scrub bar (native controls
+// without their own full-screen button), Space plays and pauses it.
+// No buttons in webdriver runs (PDF, screenshots).
+(function(){
+  if(navigator.webdriver)return;
+  var SVG='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">';
+  var EXPAND=SVG+'<path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg>', CLOSE=SVG+'<path d="M6 6l12 12M18 6L6 18"/></svg>';
+  var OPEN_T='Enlarge to full window', CLOSE_T='Close (Esc)', NEXUS='#gridOverlay.open,#lightboxOverlay.open,.legend-overlay.open,.slide-peek-overlay.open';
+  var kb=navigator.keyboard&&navigator.keyboard.lock?navigator.keyboard:null, locked=false, cur=null;
+  var ov=document.createElement('div'); ov.className='vbox'; ov.setAttribute('role','dialog'); ov.setAttribute('aria-modal','true'); ov.setAttribute('aria-label','Enlarged view');
+  ov.innerHTML='<div class="vbox-stage"></div><button type="button" class="vbox-x" title="'+CLOSE_T+'" aria-label="'+CLOSE_T+'">'+CLOSE+'</button>';
+  document.body.appendChild(ov);
+  var stage=ov.querySelector('.vbox-stage');
+  function toggle(v){if(v.paused)v.play().catch(function(){});else v.pause();}
+  function open(h){
+    var v=h.querySelector('video'), im=h.querySelector('img');
+    if(v){ var playing=!v.paused; cur={v:v,parent:v.parentNode,next:v.nextSibling,host:h}; stage.appendChild(v); v.controls=true; v.setAttribute('controlslist','nofullscreen nodownload noremoteplayback'); v.disablePictureInPicture=true; if(playing)v.play().catch(function(){}); }
+    else { var c=document.createElement('img'); c.src=im.currentSrc||im.src; c.alt=im.alt||''; stage.appendChild(c); cur={img:c,host:h}; }
+    ov.classList.add('open'); document.documentElement.classList.add('vbox-on');
+  }
+  function close(){
+    if(!cur)return;
+    if(cur.v){ var playing=!cur.v.paused; cur.v.controls=false; cur.v.removeAttribute('controlslist'); cur.parent.insertBefore(cur.v,cur.next); if(playing)cur.v.play().catch(function(){}); }
+    else stage.removeChild(cur.img);
+    var h=cur.host; cur=null; ov.classList.remove('open'); document.documentElement.classList.remove('vbox-on');
+    var b=h.querySelector('.vfs'); if(b)b.blur();
+  }
+  document.querySelectorAll('section.slide .clip, section.slide .reel, section.slide .talk-video, section.slide .shot').forEach(function(h){
+    if(!h.querySelector('video, img'))return;
+    var b=document.createElement('button'); b.type='button'; b.className='vfs'; b.innerHTML=EXPAND; b.title=OPEN_T; b.setAttribute('aria-label',OPEN_T);
+    b.addEventListener('click',function(e){e.stopPropagation();e.preventDefault();open(h);});
+    h.classList.add('vfs-host'); h.appendChild(b);
+  });
+  ov.querySelector('.vbox-x').addEventListener('click',function(e){e.stopPropagation();close();});
+  ov.addEventListener('click',function(e){ if(!cur||e.target.closest('.vbox-x'))return; if(cur.v&&e.target===cur.v)return; close(); });   // a click on the video is handled by its own controls
+  document.addEventListener('fullscreenchange',function(){
+    if(document.fullscreenElement){ if(kb)kb.lock(['Escape']).then(function(){locked=true;}).catch(function(){locked=false;}); }
+    else { locked=false; if(kb&&kb.unlock)kb.unlock(); if(cur)close(); }   // browser left full screen on its own (Safari, Firefox): close the view too
+  });
+  window.addEventListener('keydown',function(e){
+    if(e.metaKey||e.ctrlKey||e.altKey||e.key==='Tab')return;
+    if(cur){ e.stopImmediatePropagation(); e.preventDefault(); if(e.key===' '&&cur.v)toggle(cur.v); else close(); return; }
+    if(e.key==='Escape'&&locked&&document.fullscreenElement&&!document.querySelector(NEXUS)) document.exitFullscreen().catch(function(){});
+  },true);
+})();
+</script>
+<script src="assets/nexus.js"></script>
+<script>
+// Slide grid (G) with miniatures: each card shows the slide itself at thumbnail size, videos as their posters.
+// Wraps buildGrid from nexus.js, clones are built once and reused every time the grid opens.
+(function () {
+    if (typeof buildGrid !== 'function' || typeof slides === 'undefined') return;
+    var base = buildGrid, minis = {};
+    function mini(slide) {
+        if (minis[slide.id]) return minis[slide.id];
+        var box = document.createElement('div'); box.className = 'grid-mini';
+        var stage = document.createElement('div'); stage.className = 'grid-mini-stage';
+        var c = slide.cloneNode(true);
+        c.removeAttribute('id'); c.classList.add('active'); c.classList.remove('exit-fwd', 'exit-bwd'); c.setAttribute('aria-hidden', 'true');
+        c.querySelectorAll('video').forEach(function (v) {
+            var im = document.createElement('img'); im.src = v.getAttribute('poster') || ''; im.alt = ''; im.className = 'grid-mini-poster'; v.replaceWith(im);
+        });
+        c.querySelectorAll('.vfs, a, button').forEach(function (n) { if (n.classList.contains('vfs') || n.tagName === 'BUTTON') n.remove(); else n.removeAttribute('href'); });
+        stage.appendChild(c); box.appendChild(stage); minis[slide.id] = box;
+        return box;
+    }
+    function fit() {
+        document.querySelectorAll('#gridThumbnails .grid-mini').forEach(function (b) {
+            b.firstChild.style.transform = 'scale(' + (b.clientWidth / 1600) + ')';
+        });
+    }
+    buildGrid = function () {
+        base();
+        var cards = document.querySelectorAll('#gridThumbnails .grid-thumb');
+        slides.forEach(function (s, i) { if (cards[i]) { cards[i].classList.add('has-mini'); cards[i].insertBefore(mini(s), cards[i].firstChild); } });
+        requestAnimationFrame(fit);
+    };
+    addEventListener('resize', function () { if (document.querySelector('#gridOverlay.open')) fit(); });
+})();
+</script>
+</body>
+</html>
